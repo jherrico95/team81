@@ -1,5 +1,5 @@
 <?php
-$servername = "ec2-52-63-157-205.ap-southeast-2.compute.amazonaws.com";
+$servername = "localhost";
 $username = "root";
 $password = "team81";
 
