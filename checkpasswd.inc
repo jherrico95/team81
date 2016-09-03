@@ -3,7 +3,7 @@
 	
 	function checkPassword($userName,$passwd,$pdo){
 				
-		$query = $pdo->prepare('SELECT * FROM members WHERE username = :userName 
+		$query = $pdo->prepare('SELECT * FROM login WHERE userName = :userName 
 								and password = SHA2(CONCAT(:passwd, salt), 0)');
 		$query->bindValue(':passwd', $passwd);
 		$query->bindValue(':userName', $userName);
