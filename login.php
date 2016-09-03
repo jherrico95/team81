@@ -14,7 +14,7 @@
 			include 'login.php';   
 		} 
 		include('createDB.inc');
-		include('checkpasswd.inc');
+		//include('checkpasswd.inc');
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			echo 'Lgin wrks';
 			session_start(); $_SESSION['isMembers'] = true;
