@@ -1,7 +1,7 @@
 <?php
-$title = "Home - Park Bark";
+$title = "Pinelands Music School";
 $content = "<img src='images/parkbark.png' al=''/>";
-$sidebar = "Welcme  Park Bark, his is a schl assignmen using he Brisbane Ci Cuncils pen daa  prvide he bes pssibie expierence  he lcals and visiers f brisbane";
+$sidebar = "erfjkgrelkjbw;kjfbwe";
 
 include 'template.php';
 ?>
