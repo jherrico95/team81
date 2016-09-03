@@ -1,5 +1,5 @@
 <?php
-$title = "Sign Up - Park Bark";
+$title = "Sign Up - Pinelands Music School";
 $content = "Welcme  Park Bark, his is a schl assignmen using he Brisbane Ci Cuncils pen daa  prvide he bes pssibie expierence  he lcals and visiers f brisbane";
 
 //include 'template.php';
@@ -7,7 +7,7 @@ include('hml_head.inc');
 ?>
 			<div id="content_area">
 				<?php
-					include('createdb.inc');
+					include('createDB.inc');
 					$errors = array();
 					if (isset($_POST['email']))
 					{
@@ -30,10 +30,10 @@ include('hml_head.inc');
 									$salt = uniqid();
 									try
 									{				
-										$stmt = $pdo->prepare('INSERT INTO members (userName, email, salt, password) 
-																VALUES (:userName, :email, :salt, SHA2(CONCAT(:passwd, :salt), 0))');
+										$stmt = $pdo->prepare('INSERT INTO login (userName, salt, password) 
+																VALUES (:userName, :salt, SHA2(CONCAT(:passwd, :salt), 0))');
 										$stmt->bindValue(':userName', $_POST['userName']);
-										$stmt->bindValue(':email', $_POST['email']);
+										//$stmt->bindValue(':email', $_POST['email']);
 										$stmt->bindValue(':passwd', $_POST['passwd']);
 										$stmt->bindValue(':salt', $salt);
 										
