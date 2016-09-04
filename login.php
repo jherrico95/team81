@@ -16,10 +16,15 @@
 		include('createDB.inc');
 		include('checkpasswd.inc');
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
+			
+			$typeQuery = $pdo->prepare('SELECT userType FROM login where userName = :userName');
+			$typeQuery->bindParam(':userName', $userName, PDO::PARAM_STR);
+			$typeQuery->execute();
+
 			echo 'Login works';
 			session_start(); 
 			$_SESSION['isMembers'] = true;
-			$_SESSION['userType'] = 'student';
+			$_SESSION['userType'] = $typeQuery;
 			$_SESSION['userName'] = $_POST['userName'];
 			header('Location: /team81/index.php');
 			exit();
