@@ -1,11 +1,11 @@
 <?php
 	//include('createDB.inc');
 	
-	function addTeacher($_POST['userName']){
+	// function addTeacher($_POST['userName']){
 		
-		$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
-		$teacher->bindValue(':userName', $userName);
-		$teacher->execute();
+	// 	$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
+	// 	$teacher->bindValue(':userName', $userName);
+	// 	$teacher->execute();
 		// $query = $pdo->prepare('SELECT * FROM login WHERE userName = :userName 
 		// 						and password = SHA2(CONCAT(:passwd, salt), 0)');
 		// $query->bindValue(':passwd', $passwd);
