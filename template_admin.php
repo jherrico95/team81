@@ -51,7 +51,7 @@
 		$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
-		$students = $pdo->query('SELECT * FROM login WHERE userType == "student"'); 
+		$students = $pdo->query('SELECT * FROM login WHERE userType = "student"'); 
 		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
 		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
