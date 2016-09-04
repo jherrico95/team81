@@ -43,11 +43,11 @@
 								echo'<li><p>Welcome admin, '.$_SESSION['userName'].'</p><li>';
 								//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
 								echo'<li><a href="logout.php">Logout</a><li>';
-								<?php
+								
 // to change a session variable, just overwrite it 
 $_SESSION["favcolor"] = "yellow";
 print_r($_SESSION);
-?>
+
 							}// admin nav
 						}
 					?>
