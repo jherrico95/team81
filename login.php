@@ -18,7 +18,7 @@
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			echo 'Login works';
 			session_start(); $_SESSION['isMembers'] = true;
-			header('Location: /Week7/parkbark/index.php');
+			header('Location: /index.php');
 			exit();
 		}else if(!(checkPassword($_POST['userName'], $_POST['passwd'], $pdo))){
 			echo 'Login Failed';
