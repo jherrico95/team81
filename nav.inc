@@ -45,7 +45,7 @@
 								echo'<li><p>Welcome admin, '.$_SESSION['userName'].'</p><li>';
 								//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
 								echo'<li><a href="logout.php">Logout</a><li>';
-								echo'<li><a href="teacher_approval.php">Teacher Approval</a><li>';
+								echo'<li><a href="admin.php">Admin</a><li>';
 								// to change a session variable, just overwrite it 
 								//$_SESSION["favcolor"] = "yellow";
 								print_r($_SESSION);
