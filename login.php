@@ -17,8 +17,12 @@
 		include('checkpasswd.inc');
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			echo 'Login works';
-			session_start(); $_SESSION['isMembers'] = true;
-			header('Location: /Week7/parkbark/index.php');
+			session_start(); 
+			include('session.inc');
+			$_SESSION['isMembers'] = true;
+			$_SESSION['userName'] = $userName;
+			$_SESSION['userType'] = $resultType;
+			header('Location: index.php');
 			exit();
 		}else if(!(checkPassword($_POST['userName'], $_POST['passwd'], $pdo))){
 			echo 'Login Failed';
