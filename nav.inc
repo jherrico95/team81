@@ -12,7 +12,7 @@
 					<?php
 						if(isset($_SESSION['isMembers'])){
 							//echo'<li class="nav_right"><p>Welcome, '$_SESSION['userName']'</p><li>';
-							echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
+							//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
 							echo'<li class="nav_right"><a href="logout.php">Logout</a><li>';
 						}else if(!isset($_SESSION['isMembers'])){
 							echo'<li class="nav_right"><a href="signup.php">Signup</a><li>';
