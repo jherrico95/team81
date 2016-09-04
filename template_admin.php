@@ -63,7 +63,7 @@
 		echo'<select>';
 			//echo'<option value="ALL">ALL</option>';
 			foreach ($students as $student){
-				echo'<option value=',$student['userType'],'>',$student['userType'],'</option>';
+				echo'<option value=',$student['userName'],'>',$student['userName'],'</option>';
 			}
 		echo'</select>';
 		echo'</form>';
