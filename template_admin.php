@@ -61,9 +61,9 @@
 		}
 		echo '<form>';
 		echo'<select>';
-			echo'<option value="ALL">ALL</option>';
+			//echo'<option value="ALL">ALL</option>';
 			foreach ($students as $student){
-				echo'<option value=',$students['userType'],'>',$students['userType'],'</option>';
+				echo'<option value=',$student['userType'],'>',$student['userType'],'</option>';
 			}
 		echo'</select>';
 		echo'</form>';
