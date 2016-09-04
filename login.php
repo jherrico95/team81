@@ -20,7 +20,7 @@
 			session_start(); 
 			$_SESSION['isMembers'] = true;
 			$_SESSION['userType'] = 'student';
-			$_SESSION['userName'] = 'steve';
+			$_SESSION['userName'] = $_POST['userName'];
 			header('Location: /team81/index.php');
 			exit();
 		}else if(!(checkPassword($_POST['userName'], $_POST['passwd'], $pdo))){
