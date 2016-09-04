@@ -30,8 +30,8 @@ include('hml_head.inc');
 									$salt = uniqid();
 									try
 									{				
-										$stmt = $pdo->prepare('INSERT INTO login (userName, salt, password) 
-																VALUES (:userName, :salt, SHA2(CONCAT(:passwd, :salt), 0))');
+										$stmt = $pdo->prepare('INSERT INTO login (userName, salt, password, userType) 
+																VALUES (:userName, :salt, SHA2(CONCAT(:passwd, :salt), 0)), 'student');
 										$stmt->bindValue(':userName', $_POST['userName']);
 										//$stmt->bindValue(':email', $_POST['email']);
 										$stmt->bindValue(':passwd', $_POST['passwd']);
