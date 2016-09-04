@@ -19,7 +19,7 @@
 		$typeQuery->bindParam(':userName', $_POST['userName'], PDO::PARAM_STR);
 		//$uery->bindValue(':userName', $userName);
 		$typeQuery->execute();
-		print $typeQuery;
+		//print $typeQuery;
 		$typeQuery2 = (string)$typeQuery;
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			
