@@ -27,7 +27,7 @@
 			//$uery->bindValue(':userName', $userName);
 			$typeQuery->execute();
 			//print $typeQuery;
-			$typeQuery2 = (string)$typeQuery;
+			//$typeQuery2 = (string)$typeQuery;
 			echo 'Login works';
 			session_start(); 
 			$_SESSION['isMembers'] = true;
