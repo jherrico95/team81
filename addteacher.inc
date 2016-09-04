@@ -1,7 +1,7 @@
 <?php
 	//include('createDB.inc');
 	
-	function addTeacher($userName){
+	function addTeacher($_POST['userName']){
 		
 		$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
 		$teacher->bindValue(':userName', $userName);
