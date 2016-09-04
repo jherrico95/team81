@@ -19,7 +19,7 @@
 			echo 'Login works';
 			session_start(); 
 			$_SESSION['isMembers'] = true;
-			//$_SESSION['userType'] = 'student';
+			$_SESSION['userType'] = 'student';
 			$_SESSION['userName'] = 'steve';
 			header('Location: /team81/index.php');
 			exit();
