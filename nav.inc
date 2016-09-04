@@ -20,4 +20,20 @@
 					
 				</ul>
 			</div>
-			
+			<div id="second_nav">
+				<ul>
+					<!--<li><a href="index.php">Home</a><li>
+					<li><a href="teaching.php">Teaching</a><li>
+					<li><a href="about.php">About Us</a><li>
+					<li><a href="faq.php">FAQ</a><li>
+					<li><a href="contact.php">Contact Us</a><li>-->
+					<?php
+						if(isset($_SESSION['isMembers'])){
+							echo'<li><p>Welcome, '.$_SESSION['userName'].'</p><li>';
+							//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
+							echo'<li><a href="logout.php">Logout</a><li>';
+						}
+					?>
+					
+				</ul>
+			</div>
