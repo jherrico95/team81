@@ -15,6 +15,10 @@
 		} 
 		include('createDB.inc');
 		include('checkpasswd.inc');
+		$typeQuery = $pdo->prepare('SELECT userType FROM login WHERE userName = :userName');
+		$typeQuery->bindParam(':userName', $_POST['userName'], PDO::PARAM_STR);
+		//$uery->bindValue(':userName', $userName);
+		$typeQuery->execute();
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			
 			//$typeQuery = $pdo->prepare('SELECT userType FROM login WHERE userName = :userName');
