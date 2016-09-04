@@ -59,14 +59,27 @@
 		{   
 		echo $e->getMessage();  
 		}
-		echo '<form>';
-		echo'<select>';
-			//echo'<option value="ALL">ALL</option>';
-			foreach ($students as $student){
-				echo'<option value=',$student['userName'],'>',$student['userName'],'</option>';
-			}
-		echo'</select>';
+		echo '<form action="addteacher.inc"  method="POST">';
+			echo'<select>';
+				echo'<option value="ALL">SELECT STUDENT</option>';
+				foreach ($students as $student){
+					echo'<option value=',$student['userName'],'>',$student['userName'],'</option>';
+				}
+			echo'</select>';
+			echo'<input type="submit" value="SUBMIT">';
 		echo'</form>';
+
+		//echo'<form action="search.php" method="POST">';
+			//echo'<h2>Selec a mehd  search b:</h2>
+			//<select name ="para">
+				//<option value="Location">Location</option>
+				//<option value="Name">Name</option>
+				//<option value="Suburb">Suburb</option>
+				//<option value="Rating">Rating</option>
+			//</select>';
+			//echo'<input type="submit" value="SUBMIT">';
+		//echo'</form>';	
+		//echo'<form action="search.php" method="POST">';
 
 	?>
 
