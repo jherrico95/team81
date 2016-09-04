@@ -3,6 +3,7 @@
 	session_start();
 	if(isset($_SESSION['isMembers'])){
 		$_SESSION['isMembers'];
+		$_SESSION['userName'];
 	}
 	
 ?>

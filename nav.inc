@@ -1,6 +1,4 @@
-			<?php
-			$user = $_SESSION['userName'];
-			?>
+			
 
 			<div id="nav">
 				<ul>
