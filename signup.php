@@ -31,9 +31,10 @@ include('hml_head.inc');
 									try
 									{				
 										$stmt = $pdo->prepare('INSERT INTO login (userType, userName, salt, password) 
-																VALUES (student, :userName, :salt, SHA2(CONCAT(:passwd, :salt), 0))');
+																VALUES (:student, :userName, :salt, SHA2(CONCAT(:passwd, :salt), 0))');
 										$stmt->bindValue(':userName', $_POST['userName']);
 										//$stmt->bindValue(':email', $_POST['email']);
+										$stmt->bindValue(':student', 'student');
 										$stmt->bindValue(':passwd', $_POST['passwd']);
 										$stmt->bindValue(':salt', $salt);
 										
