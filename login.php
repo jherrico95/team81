@@ -31,8 +31,9 @@
 			echo 'Login works';
 			session_start(); 
 			$_SESSION['isMembers'] = true;
-			$_SESSION['userType'] = (string)$typeQuery;
+			
 			$_SESSION['userName'] = $_POST['userName'];
+			$_SESSION['userType'] = (string)$typeQuery;
 			header('Location: /team81/index.php');
 			exit();
 		}else if(!(checkPassword($_POST['userName'], $_POST['passwd'], $pdo))){
