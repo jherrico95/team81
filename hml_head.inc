@@ -25,7 +25,7 @@
 	</head>
 	<body>
 		<div id="header">
-			<img src="images/parkbark_w.png" alt="Park Bark Lg"/>
+			<img src="images/pinelands_banner.png" alt="Pinelands Music School Banner"/>
 		</div>
 		
 		<div id="wrapper">
