@@ -19,6 +19,7 @@
 		$typeQuery->bindParam(':userName', $_POST['userName'], PDO::PARAM_STR);
 		//$uery->bindValue(':userName', $userName);
 		$typeQuery->execute();
+		print $typeQuery;
 		$typeQuery2 = (string)$typeQuery;
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			
@@ -30,7 +31,7 @@
 			echo 'Login works';
 			session_start(); 
 			$_SESSION['isMembers'] = true;
-			$_SESSION['userType'] = $typeQuery2;
+			$_SESSION['userType'] = 'admin';
 			$_SESSION['userName'] = $_POST['userName'];
 			header('Location: /team81/index.php');
 			exit();
