@@ -1,6 +1,6 @@
-			<?php
-			$user = $_SESSION['userName'];
-			?>
+			//<?php
+			//$user = $_SESSION['userName'];
+			//?>
 
 			<div id="nav">
 				<ul>
@@ -21,4 +21,14 @@
 					?>
 					
 				</ul>
+			</div>
+			<div id="second_nav">
+				<?php
+					if(isset($_SESSION['isMembers'])){
+						if($_SESSION['userType'] == 'student'){
+						echo'<li class="nav_right"><p>Welcome, '.$_SESSION['userName'].'</p><li>';
+						//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
+						echo'<li class="nav_right"><a href="logout.php">Logout</a><li>';
+					}
+				?>
 			</div>
