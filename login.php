@@ -24,7 +24,7 @@
 			echo 'Login works';
 			session_start(); 
 			$_SESSION['isMembers'] = true;
-			$_SESSION['userType'] = 'teacher';
+			$_SESSION['userType'] = 'admin';
 			$_SESSION['userName'] = $_POST['userName'];
 			header('Location: /team81/index.php');
 			exit();
