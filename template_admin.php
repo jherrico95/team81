@@ -60,7 +60,7 @@
 		echo $e->getMessage();  
 		}
 		echo '<form action="admin.php"  method="POST">';
-			echo'<select>';
+			echo'<select name ="teacher">';
 				echo'<option value="ALL">SELECT STUDENT</option>';
 				foreach ($students as $student){
 					echo'<option value=',$student['userName'],'>',$student['userName'],'</option>';
