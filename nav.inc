@@ -7,7 +7,6 @@
 					<li><a href="contact.php">Contact Us</a><li>
 					<?php
 						if(isset($_SESSION['isMembers'])){
-							echo'<li class="nav_right"> Welcome, '$_SESSION['userName'] '<li>';
 							echo'<li class="nav_right"><a href="logout.php">Logout</a><li>';
 						}else if(!isset($_SESSION['isMembers'])){
 							echo'<li class="nav_right"><a href="signup.php">Signup</a><li>';

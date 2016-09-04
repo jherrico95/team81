@@ -3,7 +3,7 @@
 include('createDB.inc');
 // Selecting Database
 //$db = mysql_select_db("company", $connection);
-//session_start();// Starting Session
+session_start();// Starting Session
 // Storing Session
 $user_Name=$_SESSION['userName'];
 $resultType = $pdo->query('SELECT userType FROM login WHERE userName ='$user_Name''); 
