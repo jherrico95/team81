@@ -7,7 +7,7 @@ $sidebar = "erfjkgrelkjbw;kjfbwe";
 if($_SESSION['userType'] == 'admin')
 {
 	include 'template.php';
-}else if(!$_SESSION['userType'] == 'admin') {
+}else if($_SESSION['userType'] != 'admin') {
 	header('Location: /team81/index.php');
 }
 ?>
