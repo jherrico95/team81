@@ -26,7 +26,7 @@
 			$typeQuery->bindValue(':userName', $_POST['userName']);
 			//$uery->bindValue(':userName', $userName);
 			$typeQuery->execute();
-
+			$userRow=typeQuery->fetch(PDO::FETCH_ASSOC);
 			//print $typeQuery;
 			//$typeQuery2 = (string)$typeQuery;
 			echo 'Login works';
@@ -34,7 +34,7 @@
 			$_SESSION['isMembers'] = true;
 			
 			$_SESSION['userName'] = $_POST['userName'];
-			$_SESSION['userType'] = $typeQuery['userType'];
+			$_SESSION['userType'] = $userRow['userType'];
 			header('Location: /team81/index.php');
 			exit();
 		}else if(!(checkPassword($_POST['userName'], $_POST['passwd'], $pdo))){
