@@ -9,7 +9,7 @@
 		$query->bindValue(':userName', $userName);
 		
 		$query->execute();
-		
+		$_SESSION['userType'] = $query['userType'];
 		if($query->rowCount() > 0){
 		return True;
 		}
