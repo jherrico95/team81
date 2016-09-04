@@ -18,7 +18,7 @@
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			echo 'Login works';
 			session_start(); $_SESSION['isMembers'] = true;
-			header('Location: /index.php');
+			header('Location: /team81/index.php');
 			exit();
 		}else if(!(checkPassword($_POST['userName'], $_POST['passwd'], $pdo))){
 			echo 'Login Failed';
