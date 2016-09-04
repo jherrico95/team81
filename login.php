@@ -35,7 +35,8 @@
 			
 			$_SESSION['userName'] = $_POST['userName'];
 			//$_SESSION['userType'] = $typeQuery[0][3];
-			$_SESSION['userType'] = $typeQuery->execute();
+			//$_SESSION['userType'] = $typeQuery->execute();
+			$_SESSION['userType'] = $typeQuery->fetchColumn(0);
 			header('Location: /team81/index.php');
 			exit();
 		}else if(!(checkPassword($_POST['userName'], $_POST['passwd'], $pdo))){
