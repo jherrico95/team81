@@ -18,9 +18,10 @@
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			echo 'Login works';
 			session_start(); 
-			include('session.inc');
+
 			$_SESSION['isMembers'] = true;
 			$_SESSION['userName'] = $userName;
+			include('session.inc');
 			$_SESSION['userType'] = $resultType;
 			header('Location: index.php');
 			exit();
