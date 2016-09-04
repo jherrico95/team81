@@ -1,5 +1,5 @@
-		<h2>Sign Up to use Park Bark</h2>
-		<h4>Connect with other dog lovers!</h4>
+		<h2>Sign Up to Pinelands Music School</h2>
+		<h4>Learn from some of the best teachers!</h4>
 		<form action="signup.php" method="POST">
 		
 			<?php

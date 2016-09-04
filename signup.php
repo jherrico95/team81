@@ -56,7 +56,7 @@ include('hml_head.inc');
 			</div>
 			
 			<div id="sidebar">
-				<img src="images/parkbark.png" al=""/>
+				<img src="images/PINELANDS.png" al=""/>
 			</div>
 	<?php
 		include('footer.inc');
