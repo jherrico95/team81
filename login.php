@@ -27,13 +27,13 @@
 			//$uery->bindValue(':userName', $userName);
 			$typeQuery->execute();
 			//print $typeQuery;
-			//$typeQuery2 = (string)$typeQuery;
+			$typeQuery2 = (string)$typeQuery;
 			echo 'Login works';
 			session_start(); 
 			$_SESSION['isMembers'] = true;
 			
 			$_SESSION['userName'] = $_POST['userName'];
-			$_SESSION['userType'] = (string)$typeQuery;
+			$_SESSION['userType'] = $typeQuery2;
 			header('Location: /team81/index.php');
 			exit();
 		}else if(!(checkPassword($_POST['userName'], $_POST['passwd'], $pdo))){
