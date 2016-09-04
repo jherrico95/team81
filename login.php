@@ -17,14 +17,15 @@
 		include('checkpasswd.inc');
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			
-			//$typeQuery = $pdo->prepare('SELECT userType FROM login where userName = :userName');
+			$typeQuery = $pdo->prepare('SELECT userType FROM login WHERE userName = :userName');
 			//$typeQuery->bindParam(':userName', $_POST['userName'], PDO::PARAM_STR);
-			//$typeQuery->execute();
+			$typeQuery->bindValue(':userName', $userName);
+			$typeQuery->execute();
 
 			echo 'Login works';
 			session_start(); 
 			$_SESSION['isMembers'] = true;
-			$_SESSION['userType'] = 'admin';
+			$_SESSION['userType'] = $typeQuery;
 			$_SESSION['userName'] = $_POST['userName'];
 			header('Location: /team81/index.php');
 			exit();
