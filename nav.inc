@@ -29,7 +29,7 @@
 					<li><a href="contact.php">Contact Us</a><li>-->
 					<?php
 						if(isset($_SESSION['isMembers'])){
-							if($_SESSION['userTyper'] == 'student'){
+							if($_SESSION['userType'] == 'student'){
 								echo'<li><p>Welcome, '.$_SESSION['userName'].'</p><li>';
 								//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
 								echo'<li><a href="logout.php">Logout</a><li>';
