@@ -1,7 +1,7 @@
 <?php
 	session_start();   
 	
-	session_destroy();
+	//session_destroy();
 	unset($_SESSION['isMembers']);
 	$title = 'Log Out - Park Bark';
 	include('hml_head.inc');	
