@@ -29,9 +29,11 @@
 					<li><a href="contact.php">Contact Us</a><li>-->
 					<?php
 						if(isset($_SESSION['isMembers'])){
-							echo'<li><p>Welcome, '.$_SESSION['userName'].'</p><li>';
-							//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
-							echo'<li><a href="logout.php">Logout</a><li>';
+							if($_SESSION['userTyper'] == 'student'){
+								echo'<li><p>Welcome, '.$_SESSION['userName'].'</p><li>';
+								//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
+								echo'<li><a href="logout.php">Logout</a><li>';
+							}// student nav
 						}
 					?>
 					
