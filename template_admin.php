@@ -36,7 +36,7 @@
 	Change a student into a teacher:
 	<?php
 		include('createDB.inc');
-
+		include('addteacher.inc');
 		// $stmt = $pdo->prepare('INSERT INTO login (userType, userName, salt, password) 
 		// 						VALUES (:student, :userName, :salt, SHA2(CONCAT(:passwd, :salt), 0))');
 		// $stmt->bindValue(':userName', $_POST['userName']);
@@ -59,7 +59,7 @@
 		{   
 		echo $e->getMessage();  
 		}
-		echo '<form action="addteacher.inc"  method="POST">';
+		echo '<form action="addTeacher()"  method="POST">';
 			echo'<select>';
 				echo'<option value="ALL">SELECT STUDENT</option>';
 				foreach ($students as $student){
