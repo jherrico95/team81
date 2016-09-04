@@ -15,19 +15,19 @@
 		} 
 		include('createDB.inc');
 		include('checkpasswd.inc');
-		$typeQuery = $pdo2->prepare('SELECT userType FROM login WHERE userName = :userName');
-		$typeQuery->bindParam(':userName', $_POST['userName'], PDO::PARAM_STR);
-		//$uery->bindValue(':userName', $userName);
-		$typeQuery->execute();
-		//print $typeQuery;
-		//$typeQuery2 = (string)$typeQuery;
+		
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			
 			//$typeQuery = $pdo->prepare('SELECT userType FROM login WHERE userName = :userName');
 			//$typeQuery->bindParam(':userName', $_POST['userName'], PDO::PARAM_STR);
 			//$uery->bindValue(':userName', $userName);
 			//$typeQuery->execute();
-
+			$typeQuery = $pdo2->prepare('SELECT userType FROM login WHERE userName = :userName');
+			$typeQuery->bindValue(':userName', $_POST['userName']);
+			//$uery->bindValue(':userName', $userName);
+			$typeQuery->execute();
+			//print $typeQuery;
+			//$typeQuery2 = (string)$typeQuery;
 			echo 'Login works';
 			session_start(); 
 			$_SESSION['isMembers'] = true;
