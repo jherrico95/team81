@@ -1,6 +1,6 @@
-			//<?php
-			//$user = $_SESSION['userName'];
-			//?>
+			<?php
+			$user = $_SESSION['userName'];
+			?>
 
 			<div id="nav">
 				<ul>
