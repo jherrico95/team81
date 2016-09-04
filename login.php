@@ -20,7 +20,7 @@
 		//$uery->bindValue(':userName', $userName);
 		$typeQuery->execute();
 		//print $typeQuery;
-		$typeQuery2 = (string)$typeQuery;
+		//$typeQuery2 = (string)$typeQuery;
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			
 			//$typeQuery = $pdo->prepare('SELECT userType FROM login WHERE userName = :userName');
