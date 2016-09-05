@@ -16,7 +16,7 @@
 		// if($query->rowCount() > 0){
 		// return True;
 		// }
-
+	 	header('Location: /team81/admin.php');
 	}	
 	addTeacher($_POST['teacher']);
 ?>
