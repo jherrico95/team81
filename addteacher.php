@@ -4,7 +4,7 @@
 	//echo'<li><a href="logout.php">'$teacher'</a><li>';
 	//echo '<p>'$teacher'</p>';
 
-	function addTeacher($userName){
+	function addTeacher($userName, $pdo3){
 		
 		try  
 		{  
