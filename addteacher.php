@@ -1,5 +1,5 @@
 <?php
-	$teacher = $_POST['teacher'];
+	$teacher1 = $_POST['teacher'];
 	//include('createDB.inc');
 	//echo'<li><a href="logout.php">'$teacher'</a><li>';
 	//echo '<p>'$teacher'</p>';
@@ -12,7 +12,7 @@
 		//echo "<p>$userName</p>";
 	  	header('Location: /team81/admin.php');
 	}	
-	 addTeacher($teacher);
+	 addTeacher($teacher1);
 
 
 ?>
