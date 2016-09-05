@@ -11,7 +11,7 @@
 						if(isset($_SESSION['isMembers'])){
 							echo'<li class="nav_right"><p>Welcome, '.$_SESSION['userName'].'</p><li>';
 							//$_SESSION["favcolor"] = "yellow";
-							print_r($_SESSION);
+							//print_r($_SESSION);
 							//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
 							echo'<li class="nav_right"><a href="logout.php">Logout</a><li>';
 						}else if(!isset($_SESSION['isMembers'])){
@@ -34,21 +34,19 @@
 							if($_SESSION['userType'] == 'student'){
 								echo'<li><p>Welcome, '.$_SESSION['userName'].'</p><li>';
 								//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
-								echo'<li><a href="logout.php">Logout</a><li>';
+								//echo'<li><a href="logout.php">Logout</a><li>';
 							}// student nav
 							else if($_SESSION['userType'] == 'teacher'){
 								echo'<li><p>Welcome teacher, '.$_SESSION['userName'].'</p><li>';
 								//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
-								echo'<li><a href="logout.php">Logout</a><li>';
+								//echo'<li><a href="logout.php">Logout</a><li>';
 							}// teacher nav
 							else if($_SESSION['userType'] == 'admin'){
 								echo'<li><p>Welcome admin, '.$_SESSION['userName'].'</p><li>';
 								//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
-								echo'<li><a href="logout.php">Logout</a><li>';
+								//echo'<li><a href="logout.php">Logout</a><li>';
 								echo'<li><a href="admin.php">Admin</a><li>';
-								// to change a session variable, just overwrite it 
-								//$_SESSION["favcolor"] = "yellow";
-								print_r($_SESSION);
+								
 
 							}// admin nav
 						}
