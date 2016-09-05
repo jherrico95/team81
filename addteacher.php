@@ -22,7 +22,7 @@
 		echo "<p>$userName</p>";
 	  	//header('Location: /team81/admin.php');
 	}	
-	 addTeacher($teacher1);
+	 addTeacher($teacher1, $pdo3);
 
 
 ?>
