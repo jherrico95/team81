@@ -8,9 +8,9 @@
 		
 		try  
 		{  
-		//$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
-	  	//$teacher->bindValue(':userName', $userName);
-	  	//$teacher->execute();
+		$teacher = $pdo3->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
+	  	$teacher->bindValue(':userName', $userName);
+	  	$teacher->execute();
 		}
 		catch (PDOException $e)  
 		{   
