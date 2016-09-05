@@ -1,0 +1,72 @@
+<?php
+	include 'hml_head.inc';
+
+?>
+
+<div class="top-header">
+	
+	<div class="col-md-7">
+	</div>
+	
+	<div class="col-md-5">
+	</div>
+
+</div>
+
+<div class="home-page-content">
+	
+	<!--banner div should have fixed width-->
+	<div id="home-banner">
+	</div>
+
+	<div class="home-elements">
+		
+		<div class="col-md-3">
+		</div>
+
+		<div class="col-md-3">
+		</div>
+
+		<div class="col-md-3">
+		</div>
+
+		<div class="col-md-3">
+		</div>
+
+		 
+								</script>
+								
+								<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYOertwWLoBJGxLJhp8Z3Bu-mlOIFdnA4&callback=initMap"
+								async defer></script>   
+
+								<?php
+
+								echo'	<div id="maplarge"></div>
+							<script>
+								var map;
+								function initMap() {
+									var myLatLng = {lat: -27.41, lng: 153.03};
+									map = new google.maps.Map(document.getElementById("maplarge"), {
+											center: myLatLng,
+										zoom: 11
+									});  ';
+							// foreach ($result as $park){		
+							// 	echo'	var myLatLng = {lat: ',$park['latitude'],', lng: ',$park['longitude'],'}; 
+									
+									
+							// 		var marker = new google.maps.Marker({
+							// 			position: myLatLng,
+							// 			map: map,
+							// 			title: "',$park['dogParkName'],'"
+							// 		});
+
+
+								?>
+
+	</div>
+
+</div>
+
+<?php
+	include('footer.inc');
+?>
