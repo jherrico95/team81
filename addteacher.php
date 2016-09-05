@@ -1,8 +1,8 @@
 <?php
 	$teacher = $_POST['teacher'];
 	//include('createDB.inc');
-	echo'<li><a href="logout.php">'$teacher'</a><li>';
-	echo '<p>'$teacher'</p>';
+	//echo'<li><a href="logout.php">'$teacher'</a><li>';
+	//echo '<p>'$teacher'</p>';
 
 	 function addTeacher($userName){
 		
