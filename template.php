@@ -5,6 +5,9 @@
 <div class="top-header">
 	
 	<div class="col-md-7">
+		<div class="col-md-7">
+			<img src="images/LogoProxy.png"/>
+		</div>
 	</div>
 	
 	<div class="col-md-5">
