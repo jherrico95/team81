@@ -8,7 +8,7 @@
 		
 		try  
 		{  
-		$teacher = $pdo3->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
+		$teacher = $pdo3->prepare('UPDATE login SET userType="teacher" WHERE userName = :userName'); 
 	  	$teacher->bindValue(':userName', $userName);
 	  	$teacher->execute();
 		}
