@@ -6,10 +6,10 @@
 
 	function addTeacher($userName){
 		
-	  	$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
-	  	$teacher->bindValue(':userName', $userName);
-	  	$teacher->execute();
-		//echo "<p>$userName</p>";
+	  	//$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
+	  	//$teacher->bindValue(':userName', $userName);
+	  	//$teacher->execute();
+		echo "<p>$userName</p>";
 	  	//header('Location: /team81/admin.php');
 	}	
 	 addTeacher($teacher1);
