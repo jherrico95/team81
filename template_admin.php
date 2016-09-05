@@ -66,7 +66,7 @@
 					echo'<option value=',$student['userName'],'>',$student['userName'],'</option>';
 				}
 			echo'</select>';
-			echo'<input type="submit" value="SUBMIT">';
+			echo'<input type="submit" name="SUBMIT">';
 		echo'</form>';
 
 		//echo'<form action="search.php" method="POST">';
