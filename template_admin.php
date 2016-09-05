@@ -59,7 +59,7 @@
 		{   
 		echo $e->getMessage();  
 		}
-		echo '<form action="addteacher.php"  method="POST">';
+		echo '<form action="admin.php"  method="POST">';
 			echo'<select name ="teacher">';
 				echo'<option>SELECT STUDENT</option>';
 				foreach ($students as $student){
@@ -80,7 +80,16 @@
 			//echo'<input type="submit" value="SUBMIT">';
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
-
+		function addTeacher($userName){
+		
+	 	$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
+	 	$teacher->bindValue(':userName', $userName);
+	 	$teacher->execute();
+		
+	 	header('Location: /team81/admin.php');
+	}	
+	
+	addTeacher($_POST['teacher']);
 	?>
 
 </div>
