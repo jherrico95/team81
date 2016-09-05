@@ -1,6 +1,6 @@
 <?php
 	//include('createDB.inc');
-	
+	addTeacher($_POST['teacher']);
 	 function addTeacher($userName){
 		
 	 	$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
@@ -18,5 +18,5 @@
 		// }
 	 	header('Location: /team81/admin.php');
 	}	
-	addTeacher($_POST['teacher']);
+	
 ?>
