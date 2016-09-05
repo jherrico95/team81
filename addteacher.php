@@ -20,7 +20,7 @@
 	  	//$teacher->bindValue(':userName', $userName);
 	  	//$teacher->execute();
 		echo "<p>$userName</p>";
-	  	//header('Location: /team81/admin.php');
+	  	header('Location: /team81/admin.php');
 	}	
 	 addTeacher($teacher1, $pdo3);
 
