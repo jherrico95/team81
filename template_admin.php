@@ -82,15 +82,17 @@
 		//echo'<form action="search.php" method="POST">';
 		function addTeacher($userName){
 		
-	 	$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
-	 	$teacher->bindValue(':userName', $userName);
-	 	$teacher->execute();
+		 	$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
+		 	$teacher->bindValue(':userName', $userName);
+		 	$teacher->execute();
+			
+		 	header('Location: /team81/admin.php');
+		}	
+		if(isset($_POST['teacher'])){
+			addTeacher($_POST['teacher']);
+		}
 		
-	 	header('Location: /team81/admin.php');
-	}	
-	
-	addTeacher($_POST['teacher']);
-	?>
+		?>
 
 </div>
 
