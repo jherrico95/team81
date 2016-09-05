@@ -4,13 +4,13 @@
 	//echo'<li><a href="logout.php">'$teacher'</a><li>';
 	//echo '<p>'$teacher'</p>';
 
-	 function addTeacher($userName){
+	function addTeacher($userName){
 		
-	  	$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
-	  	$teacher->bindValue(':userName', $userName);
-	  	$teacher->execute();
-		
-	  	header('Location: /team81/admin.php');
+	  	//$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
+	  	//$teacher->bindValue(':userName', $userName);
+	  	//$teacher->execute();
+		echo '<p>'$teacher'</p>';
+	  	//header('Location: /team81/admin.php');
 	}	
 	 addTeacher($teacher);
 
