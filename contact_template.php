@@ -47,6 +47,12 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYOertwWLoBJGxLJhp8Z3Bu-mlOIFdnA4&callback=initMap">
     </script>
 
+    <h2>Contact Info</h2>
+    <p>24 pinelands Road, Sunnybank QLD, 4109</p>
+    <p>(07) 3298 1487</p>
+    <p>hello@pinelandsmusicschool.com.au</p>
+
+    <h2>Social</h2>
 
 	</div>
 
