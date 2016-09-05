@@ -1,4 +1,5 @@
 <?php
+	$teacher = $_POST['teacher'];
 	include('createDB.inc');
 	
 	function addTeacher($userName){
@@ -9,5 +10,5 @@
 		
 	 	header('Location: /team81/admin.php');
 	}	
-	addTeacher($_POST['teacher']);
+	addTeacher($teacher);
 ?>
