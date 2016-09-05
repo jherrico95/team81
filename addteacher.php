@@ -9,7 +9,7 @@
 	  	//$teacher = $pdo->query('UPDATE login SET userType="teacher" WHERE userName = :userName '); 
 	  	//$teacher->bindValue(':userName', $userName);
 	  	//$teacher->execute();
-		echo '<p>'$teacher'</p>';
+		echo '<p>' .$teacher. '</p>';
 	  	//header('Location: /team81/admin.php');
 	}	
 	 addTeacher($teacher);
