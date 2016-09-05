@@ -61,7 +61,7 @@
 		}
 		echo '<form action="addteacher.php"  method="POST">';
 			echo'<select name="teacher">';
-				echo'<option>SELECT STUDENT</option>';
+				//echo'<option>SELECT STUDENT</option>';
 				foreach ($students as $student){
 					echo'<option value=',$student['userName'],'>',$student['userName'],'</option>';
 				}
