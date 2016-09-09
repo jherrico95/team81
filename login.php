@@ -2,7 +2,7 @@
 	
 	$errors = array();
 	if (isset($_POST['login'])){
-		require 'validate.inc';   
+		require 'functions/validate.inc';   
 		//validateUser($errors, $_POST, 'userName'); 
 		//validatePassword($errors, $_POST, 'passwd');
 		if ($errors){     
@@ -13,8 +13,8 @@
 			// redisplay the form    
 			include 'login.php';   
 		} 
-		include('createDB.inc');
-		include('checkpasswd.inc');
+		include('templates/createDB.inc');
+		include('functions/checkpasswd.inc');
 		
 		if (checkPassword($_POST['userName'], $_POST['passwd'], $pdo)){
 			
@@ -45,7 +45,7 @@
 	}
 	
 	$title = "Login - Pinelands Music School";
-	include('hml_head.inc');
+	include('templates/html_head.inc');
 ?> 
 			<div id="content_area">
 				<form action="login.php" method="POST">
@@ -61,5 +61,5 @@
 				
 			</div>
 	<?php
-		include('footer.inc');
+		include('templates/footer.inc');
 	?>

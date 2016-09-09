@@ -10,7 +10,7 @@
 <html>
 	<head>
 		<title><?php echo $title; ?></title>
-		<link href="styles.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/styles.css" rel="stylesheet" type="text/css"/>
 		
 		<!--BOOTSTRAP-->
 		<!-- Latest compiled and minified CSS -->
@@ -25,7 +25,7 @@
 	</head>
 	<body>
 		<div id="header">
-			<img src="images/pinelands_banner.png" alt="Pinelands Music School Banner"/>
+			<img src="../images/pinelands_banner.png" alt="Pinelands Music School Banner"/>
 		</div>
 		
 		<div id="wrapper">

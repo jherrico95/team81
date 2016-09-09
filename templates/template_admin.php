@@ -1,5 +1,5 @@
 <?php
-	include 'hml_head.inc';
+	include 'html_head.inc';
 ?>
 
 <div class="top-header">
@@ -59,7 +59,7 @@
 		{   
 		echo $e->getMessage();  
 		}
-		echo '<form action="addteacher.php"  method="POST">';
+		echo '<form action="../functions/addteacher.php"  method="POST">';
 			echo'<select name="teacher">';
 				echo'<option value="" selected="selected">SELECT STUDENT</option>';
 				foreach ($students as $student){

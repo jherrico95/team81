@@ -3,15 +3,15 @@ $title = "Sign Up - Pinelands Music School";
 $content = "Welcme  Park Bark, his is a schl assignmen using he Brisbane Ci Cuncils pen daa  prvide he bes pssibie expierence  he lcals and visiers f brisbane";
 
 //include 'template.php';
-include('hml_head.inc');
+include('html_head.inc');
 ?>
 			<div id="content_area">
 				<?php
-					include('createDB.inc');
+					include('templates/createDB.inc');
 					$errors = array();
 					if (isset($_POST['email']))
 					{
-						require 'validate.inc';
+						require 'functions/validate.inc';
 						validateEmail($errors, $_POST, 'email');
 						validateUser($errors, $_POST, 'userName');
 						validatePassword($errors, $_POST, 'passwd', 'passwdConfirm');
@@ -19,7 +19,7 @@ include('hml_head.inc');
 						{
 							
 							// redisplay the form
-							include 'form.inc';
+							include 'functions/form.inc';
 							echo '<h3>Invalid, correct the following errors:</h3>';
 							foreach ($errors as $field => $error);
 								//echo "$error</br>";
@@ -51,7 +51,7 @@ include('hml_head.inc');
 					}
 					else
 					{
-						include 'form.inc';
+						include 'functions/form.inc';
 					}
 				?>
 			</div>
@@ -60,5 +60,5 @@ include('hml_head.inc');
 				<img src="images/PINELANDS.png" al=""/>
 			</div>
 	<?php
-		include('footer.inc');
+		include('templates/footer.inc');
 	?>

@@ -1,7 +1,7 @@
 <?php
 $title = "Pinelands Music School - About Us";
-$content = "<img src='images/parkbark.png' al=''/>";
+$content = "<img src='images/parkbark.png' alt=''/>";
 $sidebar = "erfjkgrelkjbw;kjfbwe";
 
-include 'about_template.php';
+include 'templates/about_template.php';
 ?>

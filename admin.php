@@ -9,6 +9,6 @@ if($_SESSION['userType'] != 'admin')
 	header('Location: /team81/index.php');
 	
 }else if($_SESSION['userType'] == 'admin') {
-	include 'template_admin.php';
+	include 'templates/template_admin.php';
 }
 ?>

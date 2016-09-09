@@ -1,6 +1,6 @@
 <?php
 	$teacher1 = $_POST['teacher'];
-	include('createDB.inc');
+	include('../templates/createDB.inc');
 	//echo'<li><a href="logout.php">'$teacher'</a><li>';
 	//echo '<p>'$teacher'</p>';
 
