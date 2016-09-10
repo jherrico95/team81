@@ -50,27 +50,8 @@
 		{   
 		echo $e->getMessage();  
 		}
-		echo '<form action="./functions/addteacher.php"  method="POST">';
-			echo'<select name="teacher">';
-				echo'<option value="" selected="selected">SELECT STUDENT</option>';
-				foreach ($students as $student){
-					echo'<option value=',$student['userName'],'>',$student['userName'],'</option>';
-				}
-			echo'</select>';
-			echo'<input type="submit" name="SUBMIT">';
-		echo'</form>';
+		
 
-		//echo'<form action="search.php" method="POST">';
-			//echo'<h2>Selec a mehd  search b:</h2>
-			//<select name ="para">
-				//<option value="Location">Location</option>
-				//<option value="Name">Name</option>
-				//<option value="Suburb">Suburb</option>
-				//<option value="Rating">Rating</option>
-			//</select>';
-			//echo'<input type="submit" value="SUBMIT">';
-		//echo'</form>';	
-		//echo'<form action="search.php" method="POST">';
 		foreach ($teachers as $teacher){
 			echo'<table width="100%">';
 				echo'<table>';
