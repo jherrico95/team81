@@ -74,7 +74,7 @@
 							echo $teacher['lastName'];
 						echo '</td>';
 						echo '<td>';
-							echo '<p>',$teacher['email'],'<nbsp>m2</p>';
+							echo '<p>',$teacher['email'],'</p>';
 						echo '</td>';
 					 
 					echo'</tr>';
