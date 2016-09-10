@@ -1,5 +1,5 @@
 <?php
-$title = "Classes - Pinelands Music School";
+$title = "Teachers - Pinelands Music School";
 $content = "<img src='images/parkbark.png' al=''/>";
 $sidebar = "erfjkgrelkjbw;kjfbwe";
 

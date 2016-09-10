@@ -5,6 +5,9 @@
 	$pdo2->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$pdo3 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
 	$pdo3->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$pdo4 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
+	$pdo4->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
 
 	/// connections from home computer 
 	
