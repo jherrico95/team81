@@ -59,7 +59,7 @@
 		{   
 		echo $e->getMessage();  
 		}
-		echo '<form action="../functions/addteacher.php"  method="POST">';
+		echo '<form action="./functions/addteacher.php"  method="POST">';
 			echo'<select name="teacher">';
 				echo'<option value="" selected="selected">SELECT STUDENT</option>';
 				foreach ($students as $student){

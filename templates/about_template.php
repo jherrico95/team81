@@ -34,7 +34,7 @@
 
 		<div>
 			<H1>About Us</h1>
-			<img src="../images/music_about_us.jpg" alt="Pinelands Music School About us image"/>
+			<img src="./images/music_about_us.jpg" alt="Pinelands Music School About us image"/>
 			<p>The School Pinelands Music School began in 2015, since that time the music school has become very popular and has strived to provide the best individual music tuition
 				in Brisbane and the South East Queensland. We believe that everyone can play music, and we want to make playing music a daily event for the majority of Australians.
 			</p>
