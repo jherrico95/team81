@@ -39,17 +39,17 @@
 		
 
 
-		// $pdo4->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
-		// try  
-		// {  
-		// $teachers = $pdo4->query('SELECT * FROM "teachers"'); 
-		// //$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
-		// //$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
-		// }
-		// catch (PDOException $e)  
-		// {   
-		// echo $e->getMessage();  
-		// }
+		$pdo4->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		try  
+		{  
+		$teachers = $pdo4->query('SELECT * FROM "teachers"'); 
+		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
+		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
+		}
+		catch (PDOException $e)  
+		{   
+		echo $e->getMessage();  
+		}
 		
 
 		// foreach ($teachers as $teacher){
