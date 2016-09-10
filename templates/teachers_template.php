@@ -42,7 +42,7 @@
 		$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
-		$students = $pdo->query('SELECT * FROM login WHERE userType = "student"'); 
+		$teachers = $pdo->query('SELECT * FROM teachers'); 
 		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
 		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
@@ -71,7 +71,34 @@
 			//echo'<input type="submit" value="SUBMIT">';
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
-
+		foreach ($teachers as $teacher){
+			echo'<table width="100%">';
+				echo'<table>';
+					echo '<tr>';
+						//echo '<td><img width="100px" src="images/',$park2['Picture'],'"alt="',$park2['imageAlt'],'"></td>';
+					echo '</tr>';
+				echo '</table>';
+				
+				
+				echo'<table>';
+					echo'<tr>';
+						echo '<td><a href="lesson.php?teacher=',$teacher['accountNo'],'">Book a lesson</a></td>';
+					echo'</tr>';
+					//echo $park['dogParkName'];
+					echo'<tr>';
+						echo '<td>';
+							echo $teacher['firstName'];
+						echo '</td>';
+						echo '<td>';
+							echo $teacher['lastName'];
+						echo '</td>';
+						echo '<td>';
+							echo '<p>',$teacher['email'],'<nbsp>m2</p>';
+						echo '</td>';
+					 
+					echo'</tr>';
+				echo '</table>';
+			echo '</table>';
 	?>
 
 </div>
