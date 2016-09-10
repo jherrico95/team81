@@ -3,7 +3,7 @@ $title = "Sign Up - Pinelands Music School";
 $content = "Welcme  Park Bark, his is a schl assignmen using he Brisbane Ci Cuncils pen daa  prvide he bes pssibie expierence  he lcals and visiers f brisbane";
 
 //include 'template.php';
-include('html_head.inc');
+include('templates/html_head.inc');
 ?>
 			<div id="content_area">
 				<?php
