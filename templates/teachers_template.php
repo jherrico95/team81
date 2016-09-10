@@ -52,7 +52,7 @@
 		}
 		
 
-		foreach ($teachers as $teacher){
+		foreach ($teacher as $teachers){
 			echo'<table width="100%">';
 				// echo'<table>';
 				// 	echo '<tr>';
