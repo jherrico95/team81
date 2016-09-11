@@ -1,6 +1,6 @@
 <?php
 $title = "Teachers - Pinelands Music School";
-$content = "<img src='images/parkbark.png' al=''/>";
+$content = "<img src='images/parkbark.png' alt=''/>";
 $sidebar = "erfjkgrelkjbw;kjfbwe";
 
 session_start();

@@ -9,6 +9,6 @@ if($_SESSION['userType'] != 'student')
 	header('Location: /team81/index.php');
 	
 }else if($_SESSION['userType'] == 'student') {
-	include 'templates/teachers_template.php';
+	include 'templates/lesson_template.php';
 }
 ?>
