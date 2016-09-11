@@ -45,21 +45,33 @@
 	}
 	
 	$title = "Login - Pinelands Music School";
-	include('templates/html_head.inc');
+	include 'templates/html_head.inc';
 ?> 
-			<div id="content_area">
-				<form action="login.php" method="POST">
-					User Name: <input type="text" id="userName" name="userName"><br/>
-					<br/>
-					Password: <input type="password" id="passwd" name="passwd"><br/>
-					<br/>
-					<input type="submit" name="login" value="Login">
-				</form>
-			</div>
+	
+	<div class="form-container container">
+
+		<h2 class="center">Login</h2>
+
+		<div class="login-form">
+			<form action="login.php" method="POST">
+				<div class="form-group">
+					<label for="userName">User Name:</label>
+					<input type="text" class="form-control" id="userName" name="userName">
+				</div>
+				<div class="form-group">
+					<label for="passwd">Password:</label>
+					<input type="password" class="form-control" id="passwd" name="passwd">
+				</div>
+				<input type="submit" name="login" value="Login">
+			</form>
+		</div>
+	</div>
 			
-			<div id="sidebar">
-				
-			</div>
-	<?php
-		include('templates/footer.inc');
-	?>
+	<div id="sidebar">
+		
+	</div>
+	<div class="login-footer">
+		<?php
+			include('templates/footer.inc');
+		?>
+	</div>
