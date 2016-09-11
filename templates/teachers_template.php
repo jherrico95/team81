@@ -33,7 +33,7 @@
 		</div>
 
 	</div>
-	Timetable:
+	<h1>Timetable:</h1>
 	<?php
 		include('createDB.inc');
 		
