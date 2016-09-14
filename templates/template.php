@@ -79,8 +79,8 @@
 							</div>
 						</div>
 						<div class="member-info">
-							<h4>Khalil Uddin</h4>
-							<span>Designer</span>
+							<h4>Joshua Kelly</h4>
+							<span>CEO</span>
 						</div>
 					</div>
 				</div>
@@ -97,8 +97,8 @@
 							</div>
 						</div>
 						<div class="member-info">
-							<h4>Rubel Miah</h4>
-							<span>Lead Developer</span>
+							<h4>Tyler Murphy</h4>
+							<span>Guitar and Drum teacher</span>
 						</div>
 					</div>
 				</div>
@@ -115,8 +115,8 @@
 							</div>
 						</div>
 						<div class="member-info">
-							<h4>Shamim Shohag</h4>
-							<span>Developer</span>
+							<h4>Melissa Davey</h4>
+							<span>Piano teacher</span>
 						</div>
 					</div>
 				</div>
@@ -133,8 +133,44 @@
 							</div>
 						</div>
 						<div class="member-info">
-							<h4>Zubayer Rahman</h4>
-							<span>Marketer</span>
+							<h4>Jamie Pear</h4>
+							<span>Violin teacher</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<div class="member-image">
+							<img class="img-responsive" src="images/members/team2.jpg" alt="">
+							<div class="member-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
+								<a href=""><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<div class="member-info">
+							<h4>Joshua Herrick</h4>
+							<span>Saxophone Extraordinaire</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<div class="member-image">
+							<img class="img-responsive" src="images/members/team2.jpg" alt="">
+							<div class="member-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
+								<a href=""><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<div class="member-info">
+							<h4>Jose Daniel Legaspi</h4>
+							<span>Vocal Coach</span>
 						</div>
 					</div>
 				</div>
@@ -210,52 +246,6 @@
 		</div>
 	</section>
 	<!-- /TESTIMONIAL -->
-	
-	<!-- CONTACT -->
-	<section id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<h1>Contact us</h1>
-						<span class="st-border"></span>
-					</div>
-				</div>
-				<div class="col-sm-4 contact-info">
-					<p class="contact-content">Have an inquiry? Or maybe even a complaint (screw you, go away)? Don't be afraid to call or email us, or even just use the form to send us one directly.</p>
-					<p class="st-address"><i class="fa fa-map-marker"></i> <strong>24 Pinelands Road, Sunnybank QLD 4109</strong></p>
-					<p class="st-phone"><i class="fa fa-mobile"></i> <strong>(07) 3298 1487</strong></p>
-					<p class="st-email"><i class="fa fa-envelope-o"></i> <strong>hello@pinelandsmusicschool.com.au</strong></p>
-				
-				</div>
-				<div class="col-sm-7 col-sm-offset-1">
-					<form action="templates/send-contact.php" class="contact-form" name="contact-form" method="post">
-						<div class="row">
-							<div class="col-sm-6">
-								<input type="text" name="name" required="required" placeholder="Name*">
-							</div>
-							<div class="col-sm-6">
-								<input type="email" name="email" required="required" placeholder="Email*">
-							</div>
-							<div class="col-sm-6">
-								<input type="text" name="subject" placeholder="Subject">
-							</div>
-							<div class="col-sm-6">
-								<input type="text" name="website" placeholder="Website">
-							</div>
-							<div class="col-sm-12">
-								<textarea name="message" required="required" cols="30" rows="7" placeholder="Message*"></textarea>
-							</div>
-							<div class="col-sm-12">
-								<input type="submit" name="submit" value="Send Message" class="btn btn-send">
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /CONTACT -->
 
 <?php
 	include('footer.inc');
