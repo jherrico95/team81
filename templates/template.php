@@ -12,7 +12,7 @@
 							<div class="col-sm-7">
 								<h1>Learn, Improve, Inspire </h1>
 								<h2 style="color: #a2c4c9">be the music</h2>
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+								<p>Learn from real profesisonals with real world experience. Study at Pinelands Music School: the music school for the real world.</p>
 							</div>
 						</div>
 					</div>					
@@ -31,24 +31,24 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title">
-						<h1>Services</h1>
+						<h1>What We Offer</h1>
 						<span class="st-border"></span>
 					</div>
 				</div>
 
 				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-desktop"></i> Web Design</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+					<h2><i class="fa fa-music"></i> Comprehensive Music Lessons </h2>
+					<p>Pinelands Music School not only aim to create leaders in music performance, but improve the skillset of aspiring musicians. Learn from real professionals with real world experience.</p>
 				</div>
 
 				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-cogs"></i> Web Developement</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+					<h2><i class="fa fa-headphones"></i> Quality Facilities </h2>
+					<p> Don't have an instrument? No problem! At Pinelands Music School, you can freely use our instruments using our soon to come instrument hire serivce!  </p>
 				</div>
 
 				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-code"></i> Custom Development</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+					<h2><i class="fa fa-play"></i> Live Performances </h2>
+					<p>See performances from our students, of all levels. Every Friday night!</p>
 				</div>
 			</div>
 		</div>
@@ -222,11 +222,10 @@
 					</div>
 				</div>
 				<div class="col-sm-4 contact-info">
-					<p class="contact-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatum dolorum, possimus tenetur pariatur officia, quo commodi autem doloribus vero rerum aspernatur quidem temporibus.</p>
-					<p class="st-address"><i class="fa fa-map-marker"></i> <strong>E71 8th Ave, New York NY 21001, US</strong></p>
-					<p class="st-phone"><i class="fa fa-mobile"></i> <strong>+00 123-456-789</strong></p>
-					<p class="st-email"><i class="fa fa-envelope-o"></i> <strong>email@yourdomain.com</strong></p>
-					<p class="st-website"><i class="fa fa-globe"></i> <strong>www.yourdomain.com</strong></p>
+					<p class="contact-content">Have an inquiry? Or maybe even a complaint (screw you, go away)? Don't be afraid to call or email us, or even just use the form to send us one directly.</p>
+					<p class="st-address"><i class="fa fa-map-marker"></i> <strong>24 Pinelands Road, Sunnybank QLD 4109</strong></p>
+					<p class="st-phone"><i class="fa fa-mobile"></i> <strong>(07) 3298 1487</strong></p>
+					<p class="st-email"><i class="fa fa-envelope-o"></i> <strong>hello@pinelandsmusicschool.com.au</strong></p>
 				
 				</div>
 				<div class="col-sm-7 col-sm-offset-1">

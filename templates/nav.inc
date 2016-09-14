@@ -9,7 +9,7 @@
 				    	<span class="icon-bar"></span>
 				    	<span class="icon-bar"></span>
 					</button>
-					<a class="logo" href="index.php"><img src="images/logo2.svg" alt=""></a>
+					<a class="logo" href="index.php"><img src="images/Logo2.svg" alt=""></a>
 				</div>
 
 				<div class="collapse navbar-collapse navbar-left" id="st-navbar-collapse">

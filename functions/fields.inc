@@ -1,7 +1,7 @@
 <?php
 
 	function label($name, $label){
-		echo "<label for=\"$name\">$label</label>";
+		echo "<label for=\"$name\">$label: </label>";
 	}
 
 	function errorLabel($errors, $name)
@@ -22,10 +22,10 @@
 
 	function input_field($errors, $name, $label)
 	{
-		echo '<div class="required_field">';
+		echo '<div class="form-group required_field">';
 		label($name, $label);
 		$value = posted_value($name);
-		echo "<input type=\"text\" id=\"$name\" name=\"$name\" value=\"$value\"/>";
+		echo "<input type=\"text\" class=\"form-control\" id=\"$name\" name=\"$name\" value=\"$value\"/>";
 		errorLabel($errors, $name);
 		echo '</div>';
 	}

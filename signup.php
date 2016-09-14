@@ -6,7 +6,8 @@ $content = "Welcme  Park Bark, his is a schl assignmen using he Brisbane Ci Cunc
 include('templates/html_head.inc');
 ?>
 			
-<div id="content_area">
+<div id="content_area" class="form-container container">
+	<h2 class="center">Signup</h2>
 	<?php
 		include('templates/createDB.inc');
 		$errors = array();
@@ -20,10 +21,12 @@ include('templates/html_head.inc');
 			{
 				
 				// redisplay the form
+				echo '<div class="login-form">';
 				include 'functions/form.inc';
 				echo '<h3>Invalid, correct the following errors:</h3>';
 				foreach ($errors as $field => $error);
 					//echo "$error</br>";
+				echo '</div>';
 			}
 			else{
 				if ($_POST)
