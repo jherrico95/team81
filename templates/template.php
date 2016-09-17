@@ -12,7 +12,7 @@
 							<div class="col-sm-7">
 								<h1>Learn, Improve, Inspire </h1>
 								<h2 style="color: #a2c4c9">be the music</h2>
-								<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+								<p>Learn from real profesisonals with real world experience. Study at Pinelands Music School: the music school for the real world.</p>
 							</div>
 						</div>
 					</div>					
@@ -31,24 +31,24 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title">
-						<h1>Services</h1>
+						<h1>What We Offer</h1>
 						<span class="st-border"></span>
 					</div>
 				</div>
 
 				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-desktop"></i> Web Design</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+					<h2><i class="fa fa-music"></i> Comprehensive Music Lessons </h2>
+					<p>Pinelands Music School not only aim to create leaders in music performance, but improve the skillset of aspiring musicians. Learn from real professionals with real world experience.</p>
 				</div>
 
 				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-cogs"></i> Web Developement</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+					<h2><i class="fa fa-headphones"></i> Quality Facilities </h2>
+					<p> Don't have an instrument? No problem! At Pinelands Music School, you can freely use our instruments using our soon to come instrument hire serivce!  </p>
 				</div>
 
 				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-code"></i> Custom Development</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
+					<h2><i class="fa fa-play"></i> Live Performances </h2>
+					<p>See performances from our students, of all levels. Every Friday night!</p>
 				</div>
 			</div>
 		</div>
@@ -79,8 +79,8 @@
 							</div>
 						</div>
 						<div class="member-info">
-							<h4>Khalil Uddin</h4>
-							<span>Designer</span>
+							<h4>Joshua Kelly</h4>
+							<span>CEO</span>
 						</div>
 					</div>
 				</div>
@@ -97,8 +97,8 @@
 							</div>
 						</div>
 						<div class="member-info">
-							<h4>Rubel Miah</h4>
-							<span>Lead Developer</span>
+							<h4>Tyler Murphy</h4>
+							<span>Guitar and Drum teacher</span>
 						</div>
 					</div>
 				</div>
@@ -115,8 +115,8 @@
 							</div>
 						</div>
 						<div class="member-info">
-							<h4>Shamim Shohag</h4>
-							<span>Developer</span>
+							<h4>Melissa Davey</h4>
+							<span>Piano teacher</span>
 						</div>
 					</div>
 				</div>
@@ -133,8 +133,44 @@
 							</div>
 						</div>
 						<div class="member-info">
-							<h4>Zubayer Rahman</h4>
-							<span>Marketer</span>
+							<h4>Jamie Pear</h4>
+							<span>Violin teacher</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<div class="member-image">
+							<img class="img-responsive" src="images/members/team2.jpg" alt="">
+							<div class="member-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
+								<a href=""><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<div class="member-info">
+							<h4>Joshua Herrick</h4>
+							<span>Saxophone Extraordinaire</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="team-member">
+						<div class="member-image">
+							<img class="img-responsive" src="images/members/team2.jpg" alt="">
+							<div class="member-social">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-google-plus"></i></a>
+								<a href=""><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<div class="member-info">
+							<h4>Jose Daniel Legaspi</h4>
+							<span>Vocal Coach</span>
 						</div>
 					</div>
 				</div>
@@ -210,53 +246,6 @@
 		</div>
 	</section>
 	<!-- /TESTIMONIAL -->
-	
-	<!-- CONTACT -->
-	<section id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<h1>Contact us</h1>
-						<span class="st-border"></span>
-					</div>
-				</div>
-				<div class="col-sm-4 contact-info">
-					<p class="contact-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatum dolorum, possimus tenetur pariatur officia, quo commodi autem doloribus vero rerum aspernatur quidem temporibus.</p>
-					<p class="st-address"><i class="fa fa-map-marker"></i> <strong>E71 8th Ave, New York NY 21001, US</strong></p>
-					<p class="st-phone"><i class="fa fa-mobile"></i> <strong>+00 123-456-789</strong></p>
-					<p class="st-email"><i class="fa fa-envelope-o"></i> <strong>email@yourdomain.com</strong></p>
-					<p class="st-website"><i class="fa fa-globe"></i> <strong>www.yourdomain.com</strong></p>
-				
-				</div>
-				<div class="col-sm-7 col-sm-offset-1">
-					<form action="templates/send-contact.php" class="contact-form" name="contact-form" method="post">
-						<div class="row">
-							<div class="col-sm-6">
-								<input type="text" name="name" required="required" placeholder="Name*">
-							</div>
-							<div class="col-sm-6">
-								<input type="email" name="email" required="required" placeholder="Email*">
-							</div>
-							<div class="col-sm-6">
-								<input type="text" name="subject" placeholder="Subject">
-							</div>
-							<div class="col-sm-6">
-								<input type="text" name="website" placeholder="Website">
-							</div>
-							<div class="col-sm-12">
-								<textarea name="message" required="required" cols="30" rows="7" placeholder="Message*"></textarea>
-							</div>
-							<div class="col-sm-12">
-								<input type="submit" name="submit" value="Send Message" class="btn btn-send">
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /CONTACT -->
 
 <?php
 	include('footer.inc');
