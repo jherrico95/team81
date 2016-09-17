@@ -81,6 +81,85 @@
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
 
+		echo '<h2>See class enrolements</h2>';
+		// write a for loop to get all classes
+
+		//echo'<form action="admin.php" method="POST">';
+			//echo'<h2>Selec a mehd  search b:</h2>
+			//<select name ="classes">
+		// write a for lopp to get all classes
+				//<option value="Location">Location</option>
+				//<option value="Name">Name</option>
+				//<option value="Suburb">Suburb</option>
+				//<option value="Rating">Rating</option>
+			//</select>';
+			//echo'<input type="submit" value="SUBMIT">';
+		//echo'</form>';	
+		//echo'<form action="search.php" method="POST">';
+
+		echo '<h2>Teacher Roster</h2>';
+		// write a for loop to get all classes
+
+		//echo'<form action="admin.php" method="POST">';
+			//echo'<h2>Selec a mehd  search b:</h2>
+			//<select name ="classes">
+		// write a for lopp to get all classes
+				//<option value="Location">Location</option>
+				//<option value="Name">Name</option>
+				//<option value="Suburb">Suburb</option>
+				//<option value="Rating">Rating</option>
+			//</select>';
+			//echo'<input type="submit" value="SUBMIT">';
+		//echo'</form>';	
+		//echo'<form action="search.php" method="POST">';
+
+		echo '<h2>Student Enrolements</h2>';
+		// write a for loop to get all classes
+
+		//echo'<form action="admin.php" method="POST">';
+			//echo'<h2>Selec a mehd  search b:</h2>
+			//<select name ="classes">
+		// write a for lopp to get all classes
+				//<option value="Location">Location</option>
+				//<option value="Name">Name</option>
+				//<option value="Suburb">Suburb</option>
+				//<option value="Rating">Rating</option>
+			//</select>';
+			//echo'<input type="submit" value="SUBMIT">';
+		//echo'</form>';	
+		//echo'<form action="search.php" method="POST">';
+
+		echo '<h2>Enrolements Statistics</h2>';
+		// write a for loop to get all classes
+
+		//echo'<form action="admin.php" method="POST">';
+			//echo'<h2>Selec a mehd  search b:</h2>
+			//<select name ="classes">
+		// write a for lopp to get all classes
+				//<option value="Location">Location</option>
+				//<option value="Name">Name</option>
+				//<option value="Suburb">Suburb</option>
+				//<option value="Rating">Rating</option>
+			//</select>';
+			//echo'<input type="submit" value="SUBMIT">';
+		//echo'</form>';	
+		//echo'<form action="search.php" method="POST">';
+
+		echo '<h2>Complaints</h2>';
+		// write a for loop to get all classes
+
+		//echo'<form action="admin.php" method="POST">';
+			//echo'<h2>Selec a mehd  search b:</h2>
+			//<select name ="classes">
+		// write a for lopp to get all classes
+				//<option value="Location">Location</option>
+				//<option value="Name">Name</option>
+				//<option value="Suburb">Suburb</option>
+				//<option value="Rating">Rating</option>
+			//</select>';
+			//echo'<input type="submit" value="SUBMIT">';
+		//echo'</form>';	
+		//echo'<form action="search.php" method="POST">';
 	?>
 
 </div>
