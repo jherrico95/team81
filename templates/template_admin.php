@@ -33,6 +33,7 @@
 		</div>
 
 	</div>
+	<div>
 	<h2>Change a student into a teacher:</h2>
 	<?php
 		include('createDB.inc');
@@ -123,7 +124,7 @@
 							<td>',$teacher['lastName'],'</td>
 							<td>',$teacher['firstName'],'</td>
 							<td>',$teacher['email'],'</td>
-							<td>',$teacher['phone1'],'</td>
+							<td>',$teacher['phoneNo1'],'</td>
 						</tr>';
 				}
 			//echo'</select>';
