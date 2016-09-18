@@ -98,6 +98,37 @@
 		//echo'<form action="search.php" method="POST">';
 
 		echo '<h2>Teacher Roster</h2>';
+		$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		try  
+		{  
+		$teachers = $pdo->query('SELECT * FROM teachers'); 
+		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
+		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
+		}
+		catch (PDOException $e)  
+		{   
+		echo $e->getMessage();  
+		}
+		echo '<table>';
+			//echo'<select name="teacher">';
+				//echo'<option value="" selected="selected">SELECT STUDENT</option>';
+			<tr>
+				<th>Last Name</th>
+				<th>First Name</th>
+				<th>Email</th>
+				<th>Phone</th>
+			</tr>
+				foreach ($teachers as $teacher){
+					echo'<tr>
+							<td>',$teacher['lastName'],'</td>
+							<td>',$teacher['firstName'],'</td>
+							<td>',$teacher['email'],'</td>
+							<td>',$teacher['phone1'],'</td>
+						</tr>';
+				}
+			//echo'</select>';
+			//echo'<input type="submit" name="SUBMIT">';
+		echo'</table>';
 		// write a for loop to get all classes
 
 		//echo'<form action="admin.php" method="POST">';
