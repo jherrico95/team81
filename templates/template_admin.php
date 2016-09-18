@@ -112,12 +112,12 @@
 		echo '<table>';
 			//echo'<select name="teacher">';
 				//echo'<option value="" selected="selected">SELECT STUDENT</option>';
-			<tr>
+			echo'<tr>
 				<th>Last Name</th>
 				<th>First Name</th>
 				<th>Email</th>
 				<th>Phone</th>
-			</tr>
+			</tr>';
 				foreach ($teachers as $teacher){
 					echo'<tr>
 							<td>',$teacher['lastName'],'</td>
