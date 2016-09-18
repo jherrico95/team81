@@ -98,10 +98,10 @@
 		//echo'<form action="search.php" method="POST">';
 
 		echo '<h2>Teacher Roster</h2>';
-		$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		$pdo5->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
-		$teachers = $pdo->query('SELECT * FROM teachers'); 
+		$teachers = $pdo5->query('SELECT * FROM teachers'); 
 		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
 		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
