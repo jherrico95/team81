@@ -33,7 +33,7 @@
 		</div>
 
 	</div>
-	Change a student into a teacher:
+	<h2>Change a student into a teacher:</h2>
 	<?php
 		include('createDB.inc');
 		//include('addteacher.inc');
@@ -48,10 +48,10 @@
 		// $stmt->execute();
 
 
-		$pdo5->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
-		$students = $pdo5->query('SELECT * FROM login WHERE userType = "student"'); 
+		$students = $pdo->query('SELECT * FROM login WHERE userType = "student"'); 
 		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
 		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
