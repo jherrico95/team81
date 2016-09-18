@@ -193,7 +193,7 @@
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
 	?>
-
+	</div>
 </div>
 
 <?php
