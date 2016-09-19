@@ -58,6 +58,7 @@
 				<th>Number of Lessons</th>
 				<th>Instrument</th>
 				<th>Available</th>
+				<th>Enroll</th>
 			</tr>';
 				foreach ($courses as $course){
 					echo'<tr>
