@@ -20,6 +20,9 @@
 	$pdo7 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
 	$pdo7->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+	$pdo8 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
+	$pdo8->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
 	// / connections from home computer 
 	
 	// $pdo = new PDO('mysql:host=localhost;dbname=music_school', 'pinelands', 'team81');
