@@ -22,7 +22,7 @@
 			//$typeQuery->bindParam(':userName', $_POST['userName'], PDO::PARAM_STR);
 			//$uery->bindValue(':userName', $userName);
 			//$typeQuery->execute();
-			$typeQuery = $pdo2->prepare('SELECT userType AND accountNo FROM login WHERE userName = :userName');
+			$typeQuery = $pdo2->prepare('SELECT userType,accountNo FROM login WHERE userName = :userName');
 			$typeQuery->bindValue(':userName', $_POST['userName']);
 			//$uery->bindValue(':userName', $userName);
 			$typeQuery->execute();
@@ -36,8 +36,8 @@
 			$_SESSION['userName'] = $_POST['userName'];
 			//$_SESSION['userType'] = $typeQuery[0][3];
 			//$_SESSION['userType'] = $typeQuery->execute();
-			$_SESSION['userType'] = $typeQuery->fetchColumn(1);
-			$_SESSION['accountNo'] = $typeQuery->fetchColumn(0);
+			$_SESSION['userType'] = $typeQuery->fetchColumn(0);
+			$_SESSION['accountNo'] = $typeQuery->fetchColumn(1);
 			header('Location: /team81/index.php');
 			exit();
 		}else if(!(checkPassword($_POST['userName'], $_POST['passwd'], $pdo))){
