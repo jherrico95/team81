@@ -74,13 +74,6 @@
 		// echo $e->getMessage();  
 		//}
 		echo '<form action="./functions/addComplaint.php"  method="POST">';
-			// echo'<select name="teacher">';
-			// 	echo'<option value="" selected="selected">SELECT STUDENT</option>';
-			// 	foreach ($students as $student){
-			// 		echo'<option value=',$student['userName'],'>',$student['userName'],'</option>';
-			// 	}
-			// echo'</select>';
-
 			echo'Who the complaint is against:<br>
   					<input type="text" name="complainAbout"><br>
   					<textarea name="message" rows="10" cols="30">
