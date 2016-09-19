@@ -66,7 +66,7 @@
 							<td>',$course['numberOfLessons'],'</td>
 							<td>',$course['instrumentType'],'</td>
 							<td>',$course['available'],'</td>
-							<a href="enroll.php?course=',$course['courseID'],'">Enrol in Course</a>
+							<td><a href="enroll.php?course=',$course['courseID'],'">Enrol in Course</a></td>
 						</tr>';
 				}
 			//echo'</select>';
