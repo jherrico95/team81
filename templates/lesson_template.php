@@ -46,7 +46,9 @@
 		</div>
 
 	</div>
-	<h1>Timetable:</h1>
+	<br><br>
+	<h1>Comming Soon</h1>
+	<p>Soon you will be able to book a one on one tutor specialised tutoring.</p>
 	<?php
 		
 

@@ -37,11 +37,11 @@
 	<?php
 		include('createDB.inc');
 		
-		echo '<h2>Courses</h2>';
-		$pdo8->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		echo '<h2>You are now Enrolled</h2>';
+		$pdo9->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
-		$courses = $pdo8->query('SELECT * FROM courses'); 
+		$courses = $pdo9->query('SELECT * FROM courses'); 
 		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
 		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
