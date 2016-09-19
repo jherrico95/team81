@@ -8,7 +8,8 @@
 	include('templates/html_head.inc');	
 ?>
 			<div id="content_area">
-				<p>u are nw lgged u!</p>
+				<br><br><br><br><br>
+				<h2>You are now logged out!</h2>
 			</div>
 			
 			<div id="sidebar">

@@ -1,7 +1,6 @@
 <?php
 $title = "Enroll - Pinelands Music School";
-$content = "<img src='images/parkbark.png' al=''/>";
-$sidebar = "erfjkgrelkjbw;kjfbwe";
+
 
 session_start();
 if($_SESSION['userType'] != 'student')

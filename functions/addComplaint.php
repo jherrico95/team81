@@ -16,8 +16,6 @@
 		$complaint->bindValue(':complaintText', $text);
 	  	
 	  	$complaint->execute();
-
-
 	  	}
 		catch (PDOException $e)  
 		{   
