@@ -10,7 +10,7 @@
 		
 		try  
 		{  
-		$complaint = $pdo6->prepare('INSERT INTO complaints (complaintFrom, complaintTo, complaint) VALUES (:complaintfrom, :to, :complaintText)'); 
+		$complaint = $pdo6->prepare('INSERT INTO music_school . complaints (complaintFrom, complaintTo, complaint) VALUES (:complaintfrom, :to, :complaintText)'); 
 	  	$complaint->bindValue(':complaintfrom', $complaintfrom);
 		$complaint->bindValue(':to', $to);
 		$complaint->bindValue(':complaintText', $text);
