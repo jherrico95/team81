@@ -2,8 +2,8 @@
 	include 'html_head.inc';
 
 ?>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.144684682732!2d153.06073013373043!3d-27.58904360658049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91451d40a46c35%3A0x8441bca906a5833a!2s24+Pinelands+Rd%2C+Sunnybank+Hills+QLD+4109!5e0!3m2!1sen!2sau!4v1474268218716" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.7475424259464!2d153.02619341470387!3d-27.477117923596126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a104bbd14e5%3A0x8b40453f37ca855e!2sQUT+Gardens+Point+Student+Centre!5e0!3m2!1sen!2sau!4v1473823091143" width="100%" height="450" frameborder="0" style="border:0; margin-top: 80px;" allowfullscreen></iframe>
 
 <!-- CONTACT -->
 <section id="contact">
