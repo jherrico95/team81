@@ -15,7 +15,7 @@
 
 		$userID->execute();
 	//$pdo10->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		$enrollment = $pdo10->prepare('INSERT INTO student_enrolment(studentID, courseID, currentlyEnrolled, completed) VALUES (:studentID, :courseID, N, N)'); 
+		$enrollment = $pdo10->prepare('INSERT INTO students_enrolment(studentID, courseID, currentlyEnrolled, completed) VALUES (:studentID, :courseID, N, N)'); 
 	  	$enrollment->bindValue(':studentID', $userID);
 	  	$enrollment->bindValue(':courseID', $courseID);
 
