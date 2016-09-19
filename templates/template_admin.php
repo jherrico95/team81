@@ -34,6 +34,7 @@
 
 	</div>
 	<div>
+		<br><br><br><br><br><br><br>
 	<h2>Change a student into a teacher:</h2>
 	<?php
 		include('createDB.inc');
