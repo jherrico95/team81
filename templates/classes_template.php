@@ -60,13 +60,13 @@
 				<th>Instrument</th>
 				<th>Available</th>
 			</tr>';
-				foreach ($complaints as $complain){
+				foreach ($courses as $course){
 					echo'<tr>
-							<td>',$courses['courseName'],'</td>
-							<td>',$courses['courseCost'],'</td>
-							<td>',$courses['numberOfLessons'],'</td>
-							<td>',$courses['instrumentTyoe'],'</td>
-							<td>',$courses['available'],'</td>
+							<td>',$course['courseName'],'</td>
+							<td>',$course['courseCost'],'</td>
+							<td>',$course['numberOfLessons'],'</td>
+							<td>',$course['instrumentTyoe'],'</td>
+							<td>',$course['available'],'</td>
 							
 						</tr>';
 				}
