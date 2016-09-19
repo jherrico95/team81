@@ -53,7 +53,7 @@
 		
 		echo '<form action="./functions/addComplaint.php"  method="POST">';
 			echo'Who the complaint is against:<br>
-  					<input type="text" name="complainAbout"><br>
+  					<input type="text" name="About"><br>
   					<textarea name="message" rows="10" cols="60">
 						Make your complaint here. 
 					</textarea>';

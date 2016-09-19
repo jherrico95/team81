@@ -1,5 +1,5 @@
 <?php
-	$to = $_POST['complainAbout'];
+	$to = $_POST['About'];
 	$complaintfrom = $_SESSION['userName'];
 	$text = $_POST['message'];
 	include('../templates/createDB.inc');
