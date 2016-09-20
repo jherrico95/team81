@@ -12,8 +12,8 @@
 		{  
 		$complaint = $pdo6->prepare('INSERT INTO complaints(complaintTo, complaintFrom, complaint) VALUES (:to, :complaintfrom, :complaintText)'); 
 	  	$complaint->bindValue(':complaintfrom', $complaintfrom);
-		$complaint->bindValue(':to', $to);
-		$complaint->bindValue(':complaintText', $text);
+		$complaint->bindValue(':to', $_POST['About']);
+		$complaint->bindValue(':complaintText', $_POST['message']);
 	  	
 	  	$complaint->execute();
 	  	}
