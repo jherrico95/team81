@@ -6,14 +6,14 @@
 	//echo'<li><a href="logout.php">'$teacher'</a><li>';
 	//echo '<p>'$teacher'</p>';
 
-	function addComplaint($to, $complaintfrom, $text, $pdo6){
+	function addComplaint($to1, $complaintfrom1, $text1, $pdo6){
 		
 		try  
 		{  
 		$complaint = $pdo6->prepare('INSERT INTO complaints(complaintTo, complaintFrom, complaint) VALUES (:to, :complaintfrom, :complaintText)'); 
-	  	$complaint->bindValue(':complaintfrom', $complaintfrom);
-		$complaint->bindValue(':to', $_POST['About']);
-		$complaint->bindValue(':complaintText', $_POST['message']);
+	  	$complaint->bindValue(':complaintfrom', $complaintfrom1);
+		$complaint->bindValue(':to', $to1);
+		$complaint->bindValue(':complaintText', $text1);
 	  	
 	  	$complaint->execute();
 	  	}
