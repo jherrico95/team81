@@ -1,5 +1,5 @@
 <?php
-	$courseID = $_GET['courseID'];
+	$courseID = $_GET['course'];
 	$accountNo = $_SESSION['accountNo'];
 	include('../templates/createDB.inc');
 	//echo'<li><a href="logout.php">'$teacher'</a><li>';
