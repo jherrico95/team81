@@ -80,7 +80,7 @@
 						</div>
 						<div class="member-info">
 							<h4>Joshua Kelly</h4>
-							<span>CEO</span>
+							<span>Underwater Bagpipes</span>
 						</div>
 					</div>
 				</div>
