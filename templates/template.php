@@ -70,7 +70,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team-member">
 						<div class="member-image">
-							<img class="img-responsive" src="images/members/team1.jpg" alt="">
+							<img class="img-responsive" src="images/members/Josh.jpg" alt="">
 							<div class="member-social">
 								<a href=""><i class="fa fa-facebook"></i></a>
 								<a href=""><i class="fa fa-twitter"></i></a>
@@ -88,7 +88,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team-member">
 						<div class="member-image">
-							<img class="img-responsive" src="images/members/team2.jpg" alt="">
+							<img class="img-responsive" src="images/members/Tyler.jpg" alt="">
 							<div class="member-social">
 								<a href=""><i class="fa fa-facebook"></i></a>
 								<a href=""><i class="fa fa-twitter"></i></a>
@@ -106,7 +106,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team-member">
 						<div class="member-image">
-							<img class="img-responsive" src="images/members/team1.jpg" alt="">
+							<img class="img-responsive" src="images/members/Melissa.jpg" alt="">
 							<div class="member-social">
 								<a href=""><i class="fa fa-facebook"></i></a>
 								<a href=""><i class="fa fa-twitter"></i></a>
@@ -124,7 +124,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team-member">
 						<div class="member-image">
-							<img class="img-responsive" src="images/members/team2.jpg" alt="">
+							<img class="img-responsive" src="images/members/Jamie.jpg" alt="">
 							<div class="member-social">
 								<a href=""><i class="fa fa-facebook"></i></a>
 								<a href=""><i class="fa fa-twitter"></i></a>
@@ -142,7 +142,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team-member">
 						<div class="member-image">
-							<img class="img-responsive" src="images/members/team2.jpg" alt="">
+							<img class="img-responsive" src="images/members/JoshHe.jpg" alt="">
 							<div class="member-social">
 								<a href=""><i class="fa fa-facebook"></i></a>
 								<a href=""><i class="fa fa-twitter"></i></a>
@@ -160,7 +160,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team-member">
 						<div class="member-image">
-							<img class="img-responsive" src="images/members/team2.jpg" alt="">
+							<img class="img-responsive" src="images/members/Jose.jpg" alt="">
 							<div class="member-social">
 								<a href=""><i class="fa fa-facebook"></i></a>
 								<a href=""><i class="fa fa-twitter"></i></a>
@@ -179,41 +179,6 @@
 	</section>
 	<!-- /OUR TEAM -->
 
-
-	<!-- ABOUT US -->
-	<section id="about-us">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="about-us text-center">
-						<h4>Morem ipsum dolor sit amet.</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aliquid obcaecati deleniti minus quisquam quis magnam reprehenderit quaerat molestias rerum, excepturi autem fugiat corporis quidem a ipsum quos beatae! Ut!</p>
-						<a href="" class="btn btn-send">View More</a>
-					</div>
-				</div>
-				<div class="col-sm-6 our-office">
-					<div id="office-carousel" class="carousel slide" data-ride="carousel">			
-						<div class="carousel-inner">
-							<div class="item active">
-								<img src="images/office/04.jpg" alt="">
-							</div>
-							<div class="item">
-								<img src="images/office/02.jpg" alt="">			
-							</div>
-							<div class="item">
-								<img src="images/office/03.jpg" alt="">			
-							</div>
-							
-							<a class="office-carousel-left" href="#office-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-							<a class="office-carousel-right" href="#office-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-						</div>		
-					</div> <!--/#office-carousel--> 
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /ABOUT US -->
-	
 	<!-- TESTIMONIAL -->
 	<section id="testimonial">
 		<div class="container">
@@ -246,6 +211,41 @@
 		</div>
 	</section>
 	<!-- /TESTIMONIAL -->
+
+	<!-- ABOUT US -->
+	<section id="about-us">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="about-us text-center">
+						<h4>Morem ipsum dolor sit amet.</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aliquid obcaecati deleniti minus quisquam quis magnam reprehenderit quaerat molestias rerum, excepturi autem fugiat corporis quidem a ipsum quos beatae! Ut!</p>
+						<a href="" class="btn btn-send">View More</a>
+					</div>
+				</div>
+				<div class="col-sm-6 our-office">
+					<div id="office-carousel" class="carousel slide" data-ride="carousel">			
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="images/office/guitar-435094_1280.jpg" alt="">
+							</div>
+							<div class="item">
+								<img src="images/office/singer-540771_1280.jpg" alt="">			
+							</div>
+							<div class="item">
+								<img src="images/office/turntable-1337986_1280.jpg" alt="">			
+							</div>
+							
+							<a class="office-carousel-left" href="#office-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+							<a class="office-carousel-right" href="#office-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+						</div>		
+					</div> <!--/#office-carousel--> 
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /ABOUT US -->
+	
 
 <?php
 	include('footer.inc');
