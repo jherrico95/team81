@@ -58,6 +58,7 @@
 				<th>Number of Lessons</th>
 				<th>Instrument</th>
 				<th>Available</th>
+				<th>Enroll</th>
 			</tr>';
 				foreach ($courses as $course){
 					echo'<tr>
@@ -66,7 +67,7 @@
 							<td>',$course['numberOfLessons'],'</td>
 							<td>',$course['instrumentType'],'</td>
 							<td>',$course['available'],'</td>
-							<a href="enroll.php?course=',$course['courseID'],'">Enrol in Course</a>
+							<td><a href="enroll.php?course=',$course['courseID'],'">Enrol in Course</a></td>
 						</tr>';
 				}
 			//echo'</select>';

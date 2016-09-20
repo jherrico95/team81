@@ -38,25 +38,13 @@
 	<h2>Change a student into a teacher:</h2>
 	<?php
 		include('createDB.inc');
-		//include('addteacher.inc');
-		// $stmt = $pdo->prepare('INSERT INTO login (userType, userName, salt, password) 
-		// 						VALUES (:student, :userName, :salt, SHA2(CONCAT(:passwd, :salt), 0))');
-		// $stmt->bindValue(':userName', $_POST['userName']);
-		// //$stmt->bindValue(':email', $_POST['email']);
-		// $stmt->bindValue(':student', 'student');
-		// $stmt->bindValue(':passwd', $_POST['passwd']);
-		// $stmt->bindValue(':salt', $salt);
 		
-		// $stmt->execute();
-
 
 		$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
 		$students = $pdo->query('SELECT * FROM login WHERE userType = "student"'); 
-		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
-		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
-		}
+				}
 		catch (PDOException $e)  
 		{   
 		echo $e->getMessage();  

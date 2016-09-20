@@ -50,7 +50,7 @@
 	<?php
 		echo '<br><br><br><br><br><br><br><h1>Make a Complaint:</h1>';
 		include('createDB.inc');
-		
+		include('./functions/addComplaint.php');
 		echo '<form action="./functions/addComplaint.php"  method="POST">';
 			echo'Who the complaint is against:<br>
   					<input type="text" name="About"><br>
