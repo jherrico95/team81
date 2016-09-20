@@ -55,7 +55,6 @@
 			echo'Who the complaint is against:<br>
   					<input name="About" type="text" ><br>
   					<textarea name="message" rows="10" cols="60">
-						Make your complaint here. 
 					</textarea>';
 
 			echo'<input type="submit" name="SUBMIT">';
