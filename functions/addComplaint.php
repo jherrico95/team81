@@ -1,7 +1,7 @@
 <?php
-	$to = $_GET['About'];
+	$to = $_POST['About'];
 	$complaintfrom = $_SESSION['userName'];
-	$text = $_GET['message'];
+	$text = $_POST['message'];
 	include('../templates/createDB.inc');
 	//echo'<li><a href="logout.php">'$teacher'</a><li>';
 	//echo '<p>'$teacher'</p>';
