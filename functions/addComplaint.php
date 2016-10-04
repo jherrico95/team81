@@ -1,6 +1,7 @@
 <?php
 	$to = $_POST['About'];
-	$complaintfrom = $_SESSION['userName'];
+	//$complaintfrom = $_SESSION['userName'];
+	$complaintfrom = 'bob';
 	$text = $_POST['message'];
 	include('../templates/createDB.inc');
 	//echo'<li><a href="logout.php">'$teacher'</a><li>';
@@ -10,7 +11,8 @@
 		
 		try  
 		{  
-		$complaint = $pdo6->prepare('INSERT INTO complaints(complaintTo, complaintFrom, complaint) VALUES (:to, :complaintfrom, :complaintText)'); 
+		$complaint = $pdo6->prepare('INSERT INTO complaints(complaintTo, complaintFrom, complaint) 
+										VALUES (:to, :complaintfrom, :complaintText)'); 
 	  	$complaint->bindValue(':complaintfrom', $complaintfrom1);
 		$complaint->bindValue(':to', $to1);
 		$complaint->bindValue(':complaintText', $text1);
