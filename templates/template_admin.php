@@ -71,7 +71,7 @@
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
 
-		echo '<h2>See class enrolements</h2>';
+		echo '<h2>See class enrollements</h2>';
 		// write a for loop to get all classes
 
 		//echo'<form action="admin.php" method="POST">';
@@ -134,7 +134,7 @@
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
 
-		echo '<h2>Student Enrolements</h2>';
+		echo '<h2>Student Enrollements</h2>';
 		// write a for loop to get all classes
 
 		//echo'<form action="admin.php" method="POST">';
@@ -150,7 +150,7 @@
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
 
-		echo '<h2>Enrolements Statistics</h2>';
+		echo '<h2>Enrollement Statistics</h2>';
 		// write a for loop to get all classes
 
 		//echo'<form action="admin.php" method="POST">';
