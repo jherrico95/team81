@@ -50,7 +50,7 @@ include('templates/html_head.inc');
 							echo $e->getMessage();
 						}					
 					}
-					echo '<h1>form submitted successfully with no errors</h1>';
+					echo '<h1>You are now a member</h1>';
 			}			
 		}
 		else
