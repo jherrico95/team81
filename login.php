@@ -22,7 +22,7 @@
 			//$typeQuery->bindParam(':userName', $_POST['userName'], PDO::PARAM_STR);
 			//$uery->bindValue(':userName', $userName);
 			//$typeQuery->execute();
-			$typeQuery = $pdo2->prepare('SELECT userType, accountNo, userName FROM login WHERE userName = :userName');
+			$typeQuery = $pdo2->prepare('SELECT userType,accountNo FROM login WHERE userName = :userName');
 			$typeQuery->bindValue(':userName', $_POST['userName']);
 			//$uery->bindValue(':userName', $userName);
 			$typeQuery->execute();
@@ -33,7 +33,7 @@
 			session_start(); 
 			$_SESSION['isMembers'] = true;
 			
-			$_SESSION['userName'] = $typeQuery->fetchColumn(2);
+			$_SESSION['userName'] = $_POST['userName'];
 			//$_SESSION['userType'] = $typeQuery[0][3];
 			//$_SESSION['userType'] = $typeQuery->execute();
 			$_SESSION['userType'] = $typeQuery->fetchColumn(0);
