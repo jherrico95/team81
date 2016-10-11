@@ -22,7 +22,7 @@
 			//$typeQuery->bindParam(':userName', $_POST['userName'], PDO::PARAM_STR);
 			//$uery->bindValue(':userName', $userName);
 			//$typeQuery->execute();
-			$typeQuery = $pdo2->prepare('SELECT userType, accountNo,userName FROM login WHERE userName = :userName');
+			$typeQuery = $pdo2->prepare('SELECT userType, accountNo, userName FROM login WHERE userName = :userName');
 			$typeQuery->bindValue(':userName', $_POST['userName']);
 			//$uery->bindValue(':userName', $userName);
 			$typeQuery->execute();

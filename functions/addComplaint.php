@@ -1,6 +1,6 @@
 <?php
 	$to = $_POST['About'];
-	$complaintfrom = $_SESSION['userName'];
+	//$complaintfrom = $_SESSION['userName'];
 	//$complaintfrom = 'bob'; // this works
 	$text = $_POST['message'];
 	include('../templates/createDB.inc');
