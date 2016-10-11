@@ -50,7 +50,7 @@ include('templates/html_head.inc');
 							echo $e->getMessage();
 						}					
 					}
-					echo 'form submitted successfully with no errors';
+					echo '<h1>form submitted successfully with no errors</h1>';
 			}			
 		}
 		else
