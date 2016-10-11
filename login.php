@@ -7,7 +7,7 @@
 		//validatePassword($errors, $_POST, 'passwd');
 		if ($errors){     
 			//echo '<h1>Invalid, correct the following errors:</h1>';    
-			foreach ($error as $field => $errors)     
+			foreach ($errors as $field => $error)     
 				echo "$field $error</br>";        
 			
 			// redisplay the form    
