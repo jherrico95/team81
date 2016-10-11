@@ -53,7 +53,7 @@
 								}// student nav
 								else if($_SESSION['userType'] == 'teacher'){
 									//echo'<li><p>Welcome teacher, '.$_SESSION['userName'].'</p><li>';
-									echo'<li><a href="complaints.php">Complain</a><li>';
+									echo'<li><a href="complaints.php">Give Feedback</a><li>';
 									echo'<li><a href="reschedule.php">Reschedule</a><li>';
 									//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
 									//echo'<li><a href="logout.php">Logout</a><li>';
