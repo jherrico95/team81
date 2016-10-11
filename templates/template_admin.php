@@ -138,7 +138,7 @@
 		$pdo11->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
-		$userTotal = $pdo11->query('SELECT COUNT(1) FROM login'); 
+		$userTotal = $pdo11->query('SELECT COUNT( * ) FROM login'); 
 		$adminTotal = $pdo11->query('SELECT * FROM login WHERE userType = "admin"');
 		$teacherTotal = $pdo11->query('SELECT * FROM login WHERE userType = "teacher"');
 		$studentTotal = $pdo11->query('SELECT * FROM login WHERE userType = "student"');
