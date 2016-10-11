@@ -166,7 +166,7 @@
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
 
-		echo '<h2>Complaints</h2>';
+		echo '<h2>Feedback</h2>';
 		$pdo7->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
@@ -184,7 +184,7 @@
 			echo'<tr>
 				<th>To</th>
 				<th>From</th>
-				<th>Complaint</th>
+				<th>Feedback</th>
 				
 			</tr>';
 				foreach ($complaints as $complain){
