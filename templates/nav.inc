@@ -47,7 +47,7 @@
 									//echo'<li class="nav_right"><p>Welcome, '$user'</p><li>';
 									echo'<li><a href="classes.php">Classes</a><li>';
 									echo'<li><a href="teachers.php">Teachers</a><li>';
-									echo'<li><a href="complaints.php">Complain</a><li>';
+									echo'<li><a href="complaints.php">Give Feedback</a><li>';
 									echo'<li><a href="timetable.php">Timetable</a><li>';
 
 								}// student nav
