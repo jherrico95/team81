@@ -139,9 +139,9 @@
 		try  
 		{  
 		$userTotal = $pdo11->query('SELECT COUNT( * ) FROM login'); 
-		$adminTotal = $pdo11->query('SELECT COUNT( * ) FROM login WHERE userType = "admin"');
-		$teacherTotal = $pdo11->query('SELECT COUNT( * ) FROM login WHERE userType = "teacher"');
-		$studentTotal = $pdo11->query('SELECT COUNT( * ) FROM login WHERE userType = "student"');
+		$adminTotal = $pdo12->query('SELECT COUNT( * ) FROM login WHERE userType = "admin"');
+		$teacherTotal = $pdo13->query('SELECT COUNT( * ) FROM login WHERE userType = "teacher"');
+		$studentTotal = $pdo14->query('SELECT COUNT( * ) FROM login WHERE userType = "student"');
 		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
 		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
