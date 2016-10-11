@@ -139,9 +139,9 @@
 		try  
 		{  
 		$userTotal = $pdo11->query('SELECT * FROM login'); 
-		//$adminTotal = $pdo11->query('SELECT * FROM login WHERE userType = "admin"');
-		//$teacherTotal = $pdo11->query('SELECT * FROM login WHERE userType = "teacher"');
-		//$studentTotal = $pdo11->query('SELECT * FROM login WHERE userType = "student"');
+		$adminTotal = $pdo11->query('SELECT * FROM login WHERE userType = "admin"');
+		$teacherTotal = $pdo11->query('SELECT * FROM login WHERE userType = "teacher"');
+		$studentTotal = $pdo11->query('SELECT * FROM login WHERE userType = "student"');
 		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
 		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
@@ -149,6 +149,10 @@
 		{   
 		echo $e->getMessage();  
 		}
+			$usetotal = mysql_num_rows($userTotal)
+			$admintotal = mysql_num_rows($adminTotal)
+			$teachertotal = mysql_num_rows($teacherTotal)
+			$studenttotal = mysql_num_rows($studentTotal)
 		echo '<table>';
 			//echo'<select name="teacher">';
 				//echo'<option value="" selected="selected">SELECT STUDENT</option>';
@@ -160,8 +164,10 @@
 			</tr>';
 				//foreach ($complaints as $complain){
 					echo'<tr>
-							<td>',mysql_num_rows($userTotal),'</td>
-							
+							<td>',$usertotal,'</td>
+							<td>',$admintotal,'</td>
+							<td>',$teachertotal,'</td>
+							<td>',$studenttotal,'</td>
 							
 						</tr>';
 				//}
