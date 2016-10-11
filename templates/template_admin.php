@@ -138,7 +138,7 @@
 		$pdo11->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
-		$userTotal = $pdo11->query('SELECT * FROM login'); 
+		$userTotal = $pdo11->query('SELECT COUNT(*) FROM login'); 
 		$adminTotal = $pdo11->query('SELECT * FROM login WHERE userType = "admin"');
 		$teacherTotal = $pdo11->query('SELECT * FROM login WHERE userType = "teacher"');
 		$studentTotal = $pdo11->query('SELECT * FROM login WHERE userType = "student"');
@@ -160,10 +160,10 @@
 			</tr>';
 				//foreach ($complaints as $complain){
 					echo'<tr>
-							<td>',mysql_num_rows($userTotal),'</td>
-							<td>',mysql_num_rows($adminTotal),'</td>
-							<td>',mysql_num_rows($teacherTotal),'</td>
-							<td>',mysql_num_rows($studentTotal),'</td>
+							<td>',$userTotal,'</td>
+							<td>',$adminTotal,'</td>
+							<td>',$teacherTotal,'</td>
+							<td>',$studentTotal,'</td>
 							
 						</tr>';
 				//}
