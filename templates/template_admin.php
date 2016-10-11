@@ -139,9 +139,9 @@
 		try  
 		{  
 		$userTotal = $pdo11->query('SELECT * FROM login'); 
-		$adminTotal = $pdo11->query('SELECT * FROM login WHERE userType = "admin"');
-		$teacherTotal = $pdo11->query('SELECT * FROM login WHERE userType = "teacher"');
-		$studentTotal = $pdo11->query('SELECT * FROM login WHERE userType = "student"');
+		//$adminTotal = $pdo11->query('SELECT * FROM login WHERE userType = "admin"');
+		//$teacherTotal = $pdo11->query('SELECT * FROM login WHERE userType = "teacher"');
+		//$studentTotal = $pdo11->query('SELECT * FROM login WHERE userType = "student"');
 		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
 		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
@@ -161,9 +161,7 @@
 				//foreach ($complaints as $complain){
 					echo'<tr>
 							<td>',mysql_num_rows($userTotal),'</td>
-							<td>',mysql_num_rows($adminTotal),'</td>
-							<td>',mysql_num_rows($teacherTotal),'</td>
-							<td>',mysql_num_rows($studentTotal),'</td>
+							
 							
 						</tr>';
 				//}
