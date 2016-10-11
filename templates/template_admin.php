@@ -139,46 +139,36 @@
 		try  
 		{  
 		$userTotal = $pdo11->query('SELECT COUNT( * ) FROM login'); 
-		
-		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
-		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
 		catch (PDOException $e)  
 		{   
 		echo $e->getMessage();  
 		}
+
 		$pdo12->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
 		$adminTotal = $pdo12->query('SELECT COUNT( * ) FROM login WHERE userType = "admin"');
-		
-		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
-		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
 		catch (PDOException $e)  
 		{   
 		echo $e->getMessage();  
 		}
+
 		$pdo13->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
 		$teacherTotal = $pdo13->query('SELECT COUNT( * ) FROM login WHERE userType = "teacher"');
-		
-		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
-		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
 		}
 		catch (PDOException $e)  
 		{   
 		echo $e->getMessage();  
 		}
+
 		$pdo14->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
 		$studentTotal = $pdo14->query('SELECT COUNT( * ) FROM login WHERE userType = "student"');
-		
-		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
-		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
-		}
 		catch (PDOException $e)  
 		{   
 		echo $e->getMessage();  
