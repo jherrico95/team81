@@ -149,10 +149,6 @@
 		{   
 		echo $e->getMessage();  
 		}
-			$usetotal = mysql_num_rows($userTotal)
-			$admintotal = mysql_num_rows($adminTotal)
-			$teachertotal = mysql_num_rows($teacherTotal)
-			$studenttotal = mysql_num_rows($studentTotal)
 		echo '<table>';
 			//echo'<select name="teacher">';
 				//echo'<option value="" selected="selected">SELECT STUDENT</option>';
@@ -164,10 +160,10 @@
 			</tr>';
 				//foreach ($complaints as $complain){
 					echo'<tr>
-							<td>',$usertotal,'</td>
-							<td>',$admintotal,'</td>
-							<td>',$teachertotal,'</td>
-							<td>',$studenttotal,'</td>
+							<td>',mysql_num_rows($userTotal),'</td>
+							<td>',mysql_num_rows($adminTotal),'</td>
+							<td>',mysql_num_rows($teacherTotal),'</td>
+							<td>',mysql_num_rows($studentTotal),'</td>
 							
 						</tr>';
 				//}
