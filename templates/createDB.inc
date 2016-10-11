@@ -29,6 +29,9 @@
 	$pdo10 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
 	$pdo10->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+	// for user numbers
+	$pdo11 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
+	$pdo11->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	// / connections from home computer 
 	
 	// $pdo = new PDO('mysql:host=localhost;dbname=music_school', 'pinelands', 'team81');
