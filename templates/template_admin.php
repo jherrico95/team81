@@ -200,7 +200,7 @@
 			//echo'<select name="teacher">';
 				//echo'<option value="" selected="selected">SELECT STUDENT</option>';
 			echo'<tr>
-				<th>To</th>
+				<th>Topic</th>
 				<th>From</th>
 				<th>Feedback</th>
 				
