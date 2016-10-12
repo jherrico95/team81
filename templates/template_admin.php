@@ -135,7 +135,7 @@
 		//echo'<form action="search.php" method="POST">';
 
 		echo '<h2>Student Enrollements</h2>';
-		$pdo11->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		//$pdo11->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
 		$userTotal = $pdo11->query('SELECT COUNT( * ) FROM login'); 
@@ -145,7 +145,7 @@
 		echo $e->getMessage();  
 		}
 
-		$pdo12->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		//$pdo12->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
 		$adminTotal = $pdo12->query('SELECT COUNT( * ) FROM login WHERE userType = "admin"');
@@ -155,7 +155,7 @@
 		echo $e->getMessage();  
 		}
 
-		$pdo13->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		//$pdo13->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
 		$teacherTotal = $pdo13->query('SELECT COUNT( * ) FROM login WHERE userType = "teacher"');
@@ -165,7 +165,7 @@
 		echo $e->getMessage();  
 		}
 
-		$pdo14->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		//$pdo14->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
 		$studentTotal = $pdo14->query('SELECT COUNT( * ) FROM login WHERE userType = "student"');
