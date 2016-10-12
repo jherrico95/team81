@@ -135,51 +135,18 @@
 		//echo'<form action="search.php" method="POST">';
 
 		echo '<h2>Student Enrollements</h2>';
-		//$pdo11->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		$pdo11->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
-		$userTotal = $pdo11->query('SELECT COUNT( * ) FROM login'); 
+		$userTotal = $pdo11->query('SELECT * FROM login'); 
+		$adminTotal = $pdo12->query('SELECT * FROM login WHERE userType = "admin"');
+		$teacherTotal = $pdo13->query('SELECT * FROM login WHERE userType = "teacher"');
+		$studentTotal = $pdo14->query('SELECT * FROM login WHERE userType = "student"');
 		}
 		catch (PDOException $e)  
 		{   
 		echo $e->getMessage();  
 		}
-
-		//$pdo12->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
-		try  
-		{  
-		$adminTotal = $pdo12->query('SELECT COUNT( * ) FROM login WHERE userType = "admin"');
-		}
-		catch (PDOException $e)  
-		{   
-		echo $e->getMessage();  
-		}
-
-		//$pdo13->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
-		try  
-		{  
-		$teacherTotal = $pdo13->query('SELECT COUNT( * ) FROM login WHERE userType = "teacher"');
-		}
-		catch (PDOException $e)  
-		{   
-		echo $e->getMessage();  
-		}
-
-		//$pdo14->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
-		try  
-		{  
-		$studentTotal = $pdo14->query('SELECT COUNT( * ) FROM login WHERE userType = "student"');
-		catch (PDOException $e)  
-		{   
-		echo $e->getMessage();  
-		}
-
-
-
-
-		
-		
-		
 		echo '<table>';
 			//echo'<select name="teacher">';
 				//echo'<option value="" selected="selected">SELECT STUDENT</option>';
@@ -223,8 +190,7 @@
 		try  
 		{  
 		$complaints = $pdo7->query('SELECT * FROM complaints'); 
-		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
-		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
+		
 		}
 		catch (PDOException $e)  
 		{   
