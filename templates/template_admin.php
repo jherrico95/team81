@@ -138,10 +138,10 @@
 		$pdo11->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
-		$userTotal = $pdo11->query('SELECT * FROM login'); 
-		$adminTotal = $pdo12->query('SELECT * FROM login WHERE userType = "admin"');
-		$teacherTotal = $pdo13->query('SELECT * FROM login WHERE userType = "teacher"');
-		$studentTotal = $pdo14->query('SELECT * FROM login WHERE userType = "student"');
+		$userTotal = $pdo11->query('SELECT COUNT(*) FROM login'); 
+		$adminTotal = $pdo12->query('SELECT COUNT(*) FROM login WHERE userType = "admin"');
+		$teacherTotal = $pdo13->query('SELECT COUNT(*) FROM login WHERE userType = "teacher"');
+		$studentTotal = $pdo14->query('SELECT COUNT(*) FROM login WHERE userType = "student"');
 		}
 		catch (PDOException $e)  
 		{   
