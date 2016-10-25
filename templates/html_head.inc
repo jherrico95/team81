@@ -12,6 +12,9 @@
 		<title><?php echo $title; ?></title>
 		<!--<link href="./css/styles.css" rel="stylesheet" type="text/css"/>-->
 
+		<!--Specify Viewport for Mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<!--JQuery-->
 		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 
