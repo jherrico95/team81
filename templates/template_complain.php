@@ -48,11 +48,11 @@
 	</div>
 	
 	<?php
-		echo '<br><br><br><br><br><br><br><h1>Make a Complaint:</h1>';
+		echo '<br><br><br><br><br><br><br><h1>Give Feedback:</h1>';
 		include('createDB.inc');
 		//include('./functions/addComplaint.php');
 		echo '<form action="./functions/addComplaint.php"  method="POST">';
-			echo'Who the complaint is against:<br>
+			echo'Topic:<br>
   					<input name="About" type="text" ><br>
   					<textarea name="message" rows="10" cols="60">
 					</textarea>';

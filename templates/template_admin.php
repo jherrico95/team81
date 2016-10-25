@@ -71,7 +71,7 @@
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
 
-		echo '<h2>See class enrolements</h2>';
+		echo '<h2>See class enrollements</h2>';
 		// write a for loop to get all classes
 
 		//echo'<form action="admin.php" method="POST">';
@@ -134,7 +134,42 @@
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
 
-		echo '<h2>Student Enrolements</h2>';
+		echo '<h2>Student Enrollements</h2>';
+		// $pdo11->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+		// try  
+		// {  
+		// $userTotal = $pdo11->query('SELECT COUNT(*) FROM login'); 
+		// $adminTotal = $pdo12->query('SELECT COUNT(*) FROM login WHERE userType = "admin"');
+		// $teacherTotal = $pdo13->query('SELECT COUNT(*) FROM login WHERE userType = "teacher"');
+		// $studentTotal = $pdo14->query('SELECT COUNT(*) FROM login WHERE userType = "student"');
+		// }
+		// catch (PDOException $e)  
+		// {   
+		// echo $e->getMessage();  
+		// }
+		echo '<table>';
+			//echo'<select name="teacher">';
+				//echo'<option value="" selected="selected">SELECT STUDENT</option>';
+			echo'<tr>
+				<th>Total Users</th>
+				<th>Admin Total</th>
+				<th>Teacher Total</th>
+				<th>Student Total</th>
+			</tr>';
+				//foreach ($complaints as $complain){
+					echo'<tr>
+							<td>',$userTotal,'</td>
+							<td>',$adminTotal,'</td>
+							<td>',$teacherTotal,'</td>
+							<td>',$studentTotal,'</td>
+							
+						</tr>';
+				//}
+			//echo'</select>';
+			//echo'<input type="submit" name="SUBMIT">';
+		echo'</table>';
+
+		echo '<h2>Enrollement Statistics</h2>';
 		// write a for loop to get all classes
 
 		//echo'<form action="admin.php" method="POST">';
@@ -150,29 +185,12 @@
 		//echo'</form>';	
 		//echo'<form action="search.php" method="POST">';
 
-		echo '<h2>Enrolements Statistics</h2>';
-		// write a for loop to get all classes
-
-		//echo'<form action="admin.php" method="POST">';
-			//echo'<h2>Selec a mehd  search b:</h2>
-			//<select name ="classes">
-		// write a for lopp to get all classes
-				//<option value="Location">Location</option>
-				//<option value="Name">Name</option>
-				//<option value="Suburb">Suburb</option>
-				//<option value="Rating">Rating</option>
-			//</select>';
-			//echo'<input type="submit" value="SUBMIT">';
-		//echo'</form>';	
-		//echo'<form action="search.php" method="POST">';
-
-		echo '<h2>Complaints</h2>';
+		echo '<h2>Feedback</h2>';
 		$pdo7->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
 		try  
 		{  
 		$complaints = $pdo7->query('SELECT * FROM complaints'); 
-		//$result2 = $pdo->query('SELECT id, dogParkName, street, parkName, latitude, longitude, dogParkArea, Picture, imageAlt FROM parks'); 
-		//$suburb1 = $pdo->query('SELECT distinct suburb  FROM parks');
+		
 		}
 		catch (PDOException $e)  
 		{   
@@ -182,9 +200,9 @@
 			//echo'<select name="teacher">';
 				//echo'<option value="" selected="selected">SELECT STUDENT</option>';
 			echo'<tr>
-				<th>To</th>
+				<th>Topic</th>
 				<th>From</th>
-				<th>Complaint</th>
+				<th>Feedback</th>
 				
 			</tr>';
 				foreach ($complaints as $complain){

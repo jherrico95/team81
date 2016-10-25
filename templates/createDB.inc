@@ -29,6 +29,15 @@
 	$pdo10 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
 	$pdo10->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+	// for user numbers
+	$pdo11 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
+	$pdo11->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$pdo12 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
+	$pdo12->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$pdo13 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
+	$pdo13->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$pdo14 = new PDO('mysql:host=localhost;dbname=music_school', 'root', 'team81');
+	$pdo14->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	// / connections from home computer 
 	
 	// $pdo = new PDO('mysql:host=localhost;dbname=music_school', 'pinelands', 'team81');
