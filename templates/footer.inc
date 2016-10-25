@@ -7,7 +7,7 @@
 						<ul>
 							<!--<li><a href="./sitemap.php">Site Map</a></li>-->
 							<li><a href="./index.php">Home</a></li>
-							<li><a href="./teaching.php">Teaching</a></li>
+							<li><a href="./teachers.php">Teachers</a></li>
 							<li><a href="./about.php">About Us</a></li>
 							<li><a href="./faq.php">FAQ</a></li>
 							<li><a href="./contact.php">Contact Us</a></li>
