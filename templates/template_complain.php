@@ -15,53 +15,29 @@
 	include 'html_head.inc';
 ?>
 
-<div class="top-header">
-	
-	<div class="col-md-7">
-	</div>
-	
-	<div class="col-md-5">
-	</div>
+<div class="form-container container">
+	<h2>Give Feedback</h2>
 
-</div>
+	<div class="login-form">
+		<?php
+			include('createDB.inc');
+			//include('./functions/addComplaint.php');
+			echo '<form action="./functions/addComplaint.php"  method="POST">';
+				echo'
 
-<div class="home-page-content">
-	
-	<!--banner div should have fixed width-->
-	<div id="home-banner">
-	</div>
+				Topic:<br>
+	  			<input name="About" type="text" ><br>
+	  			<br/>Message:<br/>
+	  			<textarea name="message" rows="10" cols="60"></textarea>
+	  			
+	  			';
 
-	<div class="home-elements">
-		
-		<div class="col-md-3">
-		</div>
+				echo'<input type="submit" name="SUBMIT">';
+			echo'</form>';
 
-		<div class="col-md-3">
-		</div>
-
-		<div class="col-md-3">
-		</div>
-
-		<div class="col-md-3">
-		</div>
+		?>
 
 	</div>
-	
-	<?php
-		echo '<br><br><br><br><br><br><br><h1>Give Feedback:</h1>';
-		include('createDB.inc');
-		//include('./functions/addComplaint.php');
-		echo '<form action="./functions/addComplaint.php"  method="POST">';
-			echo'Topic:<br>
-  					<input name="About" type="text" ><br>
-  					<textarea name="message" rows="10" cols="60">
-					</textarea>';
-
-			echo'<input type="submit" name="SUBMIT">';
-		echo'</form>';
-
-	?>
-
 </div>
 
 <?php
