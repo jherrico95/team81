@@ -67,110 +67,115 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<div class="member-image">
-							<img class="img-responsive" src="images/members/Josh.jpg" alt="">
-							<div class="member-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="member-image">
+								<img class="img-responsive" src="images/members/Josh.jpg" alt="">
+								<div class="member-social">
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+							<div class="member-info">
+								<h4>Joshua Kelly</h4>
+								<span>Underwater Bagpipe Professional</span>
 							</div>
 						</div>
-						<div class="member-info">
-							<h4>Joshua Kelly</h4>
-							<span>Underwater Bagpipe Professional</span>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="member-image">
+								<img class="img-responsive" src="images/members/Tyler.jpg" alt="">
+								<div class="member-social">
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+							<div class="member-info">
+								<h4>Tyler Murphy</h4>
+								<span>Banjo and Accordion teacher</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="member-image">
+								<img class="img-responsive" src="images/members/Melissa.jpg" alt="">
+								<div class="member-social">
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+							<div class="member-info">
+								<h4>Melissa Davey</h4>
+								<span>Piano teacher</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="member-image">
+								<img class="img-responsive" src="images/members/Jamie.jpg" alt="">
+								<div class="member-social">
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+							<div class="member-info">
+								<h4>Jamie Pear</h4>
+								<span>Violin teacher</span>
+							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<div class="member-image">
-							<img class="img-responsive" src="images/members/Tyler.jpg" alt="">
-							<div class="member-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
+				<div class="row">
+
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="member-image">
+								<img class="img-responsive" src="images/members/JoshHe.jpg" alt="">
+								<div class="member-social">
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-linkedin"></i></a>
+								</div>
 							</div>
-						</div>
-						<div class="member-info">
-							<h4>Tyler Murphy</h4>
-							<span>Banjo and Accordion teacher</span>
+							<div class="member-info">
+								<h4>Joshua Herrick</h4>
+								<span>Saxophone Extraordinaire</span>
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<div class="member-image">
-							<img class="img-responsive" src="images/members/Melissa.jpg" alt="">
-							<div class="member-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
+					<div class="col-md-3 col-sm-6">
+						<div class="team-member">
+							<div class="member-image">
+								<img class="img-responsive" src="images/members/Jose.jpg" alt="">
+								<div class="member-social">
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-linkedin"></i></a>
+								</div>
 							</div>
-						</div>
-						<div class="member-info">
-							<h4>Melissa Davey</h4>
-							<span>Piano teacher</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<div class="member-image">
-							<img class="img-responsive" src="images/members/Jamie.jpg" alt="">
-							<div class="member-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
+							<div class="member-info">
+								<h4>Jose Daniel Legaspi</h4>
+								<span>Vocal Coach</span>
 							</div>
-						</div>
-						<div class="member-info">
-							<h4>Jamie Pear</h4>
-							<span>Violin teacher</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<div class="member-image">
-							<img class="img-responsive" src="images/members/JoshHe.jpg" alt="">
-							<div class="member-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="member-info">
-							<h4>Joshua Herrick</h4>
-							<span>Saxophone Extraordinaire</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<div class="member-image">
-							<img class="img-responsive" src="images/members/Jose.jpg" alt="">
-							<div class="member-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="member-info">
-							<h4>Jose Daniel Legaspi</h4>
-							<span>Vocal Coach</span>
 						</div>
 					</div>
 				</div>
