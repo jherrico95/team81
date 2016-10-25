@@ -5,7 +5,7 @@
 
 					<div class="col-sm-3">
 						<ul>
-							<li><a href="./sitemap.php">Site Map</a></li>
+							<!--<li><a href="./sitemap.php">Site Map</a></li>-->
 							<li><a href="./index.php">Home</a></li>
 							<li><a href="./teaching.php">Teaching</a></li>
 							<li><a href="./about.php">About Us</a></li>

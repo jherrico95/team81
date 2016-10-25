@@ -15,9 +15,10 @@
 				<div class="collapse navbar-collapse navbar-left" id="st-navbar-collapse">
 					<ul class="nav navbar-nav">
 				    	<li><a href="./index.php">Home</a><li>
-						<li><a href="./teachers.php">Teachers</a><li>
+						<!--<li><a href="./teachers.php">Teachers</a><li>-->
+						<li><a href="./teachers.php">Teachers</a></li>
 						<li><a href="./about.php">About Us</a><li>
-						<li><a href="./faq.php">FAQ</a><li>
+						<!--<li><a href="./faq.php">FAQ</a><li>-->
 						<li><a href="./contact.php">Contact Us</a><li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
